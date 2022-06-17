@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF032BF91AA3A20C00AA9204 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF032BF81AA3A20C00AA9204 /* Random.swift */; };
+		BF197F691AABB0610003AE04 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF197F681AABB0610003AE04 /* InventoryViewController.swift */; };
+		BF2FCCF21AABFDE40033E59C /* CurseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2FCCF11AABFDE40033E59C /* CurseViewController.swift */; };
+		BF2FCCF41AAC1BA30033E59C /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2FCCF31AAC1BA30033E59C /* InstructionsViewController.swift */; };
+		BF2FCCF61AAC1C420033E59C /* dark_tower.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF2FCCF51AAC1C420033E59C /* dark_tower.pdf */; };
+		BF4B0A771AA2B2B90020CF80 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B0A761AA2B2B90020CF80 /* Player.swift */; };
+		BF4E28071AA1BFE200C92330 /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E28001AA1BFE200C92330 /* BattleViewController.swift */; };
+		BF4E28081AA1BFE200C92330 /* BazaarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E28011AA1BFE200C92330 /* BazaarViewController.swift */; };
+		BF4E28091AA1BFE200C92330 /* Dark_TowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E28021AA1BFE200C92330 /* Dark_TowerViewController.swift */; };
+		BF4E280A1AA1BFE200C92330 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E28031AA1BFE200C92330 /* MainMenuViewController.swift */; };
+		BF4E280B1AA1BFE200C92330 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E28041AA1BFE200C92330 /* SetupViewController.swift */; };
+		BF4E280C1AA1BFE200C92330 /* TowerStatusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E28051AA1BFE200C92330 /* TowerStatusController.swift */; };
+		BF4E28191AA2210F00C92330 /* DarkTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E28181AA2210F00C92330 /* DarkTower.swift */; };
+		BF4E281B1AA2487200C92330 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E281A1AA2487200C92330 /* SoundManager.swift */; };
+		BF55A8E41AA1930700B8776F /* Arisilon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8A41AA1930700B8776F /* Arisilon.png */; };
+		BF55A8E51AA1930700B8776F /* bazaar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8A51AA1930700B8776F /* bazaar.jpg */; };
+		BF55A8E61AA1930700B8776F /* bazaar.png in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8A61AA1930700B8776F /* bazaar.png */; };
+		BF55A8E71AA1930700B8776F /* beast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8A71AA1930700B8776F /* beast.jpg */; };
+		BF55A8E81AA1930700B8776F /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8A81AA1930700B8776F /* black.jpg */; };
+		BF55A8E91AA1930700B8776F /* board.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8A91AA1930700B8776F /* board.gif */; };
+		BF55A8EA1AA1930700B8776F /* brasskey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8AA1AA1930700B8776F /* brasskey.jpg */; };
+		BF55A8EB1AA1930700B8776F /* brigands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8AB1AA1930700B8776F /* brigands.jpg */; };
+		BF55A8EC1AA1930700B8776F /* Brynthia.png in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8AC1AA1930700B8776F /* Brynthia.png */; };
+		BF55A8ED1AA1930700B8776F /* cursed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8AD1AA1930700B8776F /* cursed.jpg */; };
+		BF55A8EE1AA1930700B8776F /* darktower.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8AE1AA1930700B8776F /* darktower.gif */; };
+		BF55A8EF1AA1930700B8776F /* dg_classm32.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8AF1AA1930700B8776F /* dg_classm32.gif */; };
+		BF55A8F01AA1930700B8776F /* dg_dragon32.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8B01AA1930700B8776F /* dg_dragon32.gif */; };
+		BF55A8F11AA1930700B8776F /* dg_iso32.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8B11AA1930700B8776F /* dg_iso32.gif */; };
+		BF55A8F21AA1930700B8776F /* dragon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8B21AA1930700B8776F /* dragon.jpg */; };
+		BF55A8F31AA1930700B8776F /* dtbutton.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8B31AA1930700B8776F /* dtbutton.gif */; };
+		BF55A8F41AA1930700B8776F /* dtlogo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8B41AA1930700B8776F /* dtlogo1.jpg */; };
+		BF55A8F51AA1930700B8776F /* Durnin.png in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8B51AA1930700B8776F /* Durnin.png */; };
+		BF55A8F61AA1930700B8776F /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8B61AA1930700B8776F /* food.jpg */; };
+		BF55A8F71AA1930700B8776F /* gold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8B71AA1930700B8776F /* gold.jpg */; };
+		BF55A8F81AA1930700B8776F /* goldkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8B81AA1930700B8776F /* goldkey.jpg */; };
+		BF55A8F91AA1930700B8776F /* healer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8B91AA1930700B8776F /* healer.jpg */; };
+		BF55A8FA1AA1930700B8776F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8BA1AA1930700B8776F /* icon.png */; };
+		BF55A8FB1AA1930700B8776F /* keymissing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8BB1AA1930700B8776F /* keymissing.jpg */; };
+		BF55A8FC1AA1930700B8776F /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8BC1AA1930700B8776F /* logo.gif */; };
+		BF55A8FD1AA1930700B8776F /* lost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8BD1AA1930700B8776F /* lost.jpg */; };
+		BF55A8FE1AA1930700B8776F /* oldicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8BE1AA1930700B8776F /* oldicon.png */; };
+		BF55A8FF1AA1930700B8776F /* pegasus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8BF1AA1930700B8776F /* pegasus.jpg */; };
+		BF55A9001AA1930700B8776F /* plague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8C01AA1930700B8776F /* plague.jpg */; };
+		BF55A9011AA1930700B8776F /* ruin.png in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8C11AA1930700B8776F /* ruin.png */; };
+		BF55A9021AA1930700B8776F /* sanctuary.png in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8C21AA1930700B8776F /* sanctuary.png */; };
+		BF55A9031AA1930700B8776F /* scout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8C31AA1930700B8776F /* scout.jpg */; };
+		BF55A9041AA1930700B8776F /* silverkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8C41AA1930700B8776F /* silverkey.jpg */; };
+		BF55A9051AA1930700B8776F /* sword.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8C51AA1930700B8776F /* sword.jpg */; };
+		BF55A9061AA1930700B8776F /* tomb.png in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8C61AA1930700B8776F /* tomb.png */; };
+		BF55A9071AA1930700B8776F /* victory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8C71AA1930700B8776F /* victory.jpg */; };
+		BF55A9081AA1930700B8776F /* warrior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8C81AA1930700B8776F /* warrior.jpg */; };
+		BF55A9091AA1930700B8776F /* warriors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8C91AA1930700B8776F /* warriors.jpg */; };
+		BF55A90A1AA1930700B8776F /* wizard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8CA1AA1930700B8776F /* wizard.jpg */; };
+		BF55A90B1AA1930700B8776F /* Zenon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8CB1AA1930700B8776F /* Zenon.png */; };
+		BF55A90C1AA1930700B8776F /* battle.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8CD1AA1930700B8776F /* battle.wav */; };
+		BF55A90D1AA1930700B8776F /* bazaar-closed.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8CE1AA1930700B8776F /* bazaar-closed.wav */; };
+		BF55A90E1AA1930700B8776F /* bazaar.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8CF1AA1930700B8776F /* bazaar.wav */; };
+		BF55A90F1AA1930700B8776F /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8D01AA1930700B8776F /* beep.wav */; };
+		BF55A9101AA1930700B8776F /* clear.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8D11AA1930700B8776F /* clear.wav */; };
+		BF55A9111AA1930700B8776F /* darktower.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8D21AA1930700B8776F /* darktower.wav */; };
+		BF55A9121AA1930700B8776F /* dragon-kill.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8D31AA1930700B8776F /* dragon-kill.wav */; };
+		BF55A9131AA1930700B8776F /* dragon.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8D41AA1930700B8776F /* dragon.wav */; };
+		BF55A9141AA1930700B8776F /* end-turn.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8D51AA1930700B8776F /* end-turn.wav */; };
+		BF55A9151AA1930700B8776F /* enemy-hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8D61AA1930700B8776F /* enemy-hit.wav */; };
+		BF55A9161AA1930700B8776F /* frontier.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8D71AA1930700B8776F /* frontier.wav */; };
+		BF55A9171AA1930700B8776F /* intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8D81AA1930700B8776F /* intro.wav */; };
+		BF55A9181AA1930700B8776F /* lost.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8D91AA1930700B8776F /* lost.wav */; };
+		BF55A9191AA1930700B8776F /* pegasus.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8DA1AA1930700B8776F /* pegasus.wav */; };
+		BF55A91A1AA1930700B8776F /* plague.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8DB1AA1930700B8776F /* plague.wav */; };
+		BF55A91B1AA1930700B8776F /* player-hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8DC1AA1930700B8776F /* player-hit.wav */; };
+		BF55A91C1AA1930700B8776F /* rotate.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8DD1AA1930700B8776F /* rotate.wav */; };
+		BF55A91D1AA1930700B8776F /* sanctuary.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8DE1AA1930700B8776F /* sanctuary.wav */; };
+		BF55A91E1AA1930700B8776F /* starving.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8DF1AA1930700B8776F /* starving.wav */; };
+		BF55A91F1AA1930700B8776F /* tomb-battle.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8E01AA1930700B8776F /* tomb-battle.wav */; };
+		BF55A9201AA1930700B8776F /* tomb-nothing.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8E11AA1930700B8776F /* tomb-nothing.wav */; };
+		BF55A9211AA1930700B8776F /* tomb.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8E21AA1930700B8776F /* tomb.wav */; };
+		BF55A9221AA1930700B8776F /* wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF55A8E31AA1930700B8776F /* wrong.wav */; };
+		BFAD1BA81AAC21E000E9659D /* RiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD1BA71AAC21E000E9659D /* RiddleViewController.swift */; };
+		BFE9ECC31AA18E470062DAE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9ECC21AA18E470062DAE3 /* AppDelegate.swift */; };
+		BFE9ECC51AA18E470062DAE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9ECC41AA18E470062DAE3 /* ViewController.swift */; };
+		BFE9ECC81AA18E470062DAE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE9ECC61AA18E470062DAE3 /* Main.storyboard */; };
+		BFE9ECCA1AA18E470062DAE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE9ECC91AA18E470062DAE3 /* Images.xcassets */; };
+		BFE9ECCD1AA18E470062DAE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFE9ECCB1AA18E470062DAE3 /* LaunchScreen.xib */; };
+		BFE9ECD91AA18E470062DAE3 /* DarkTowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9ECD81AA18E470062DAE3 /* DarkTowerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFE9ECD31AA18E470062DAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE9ECB51AA18E470062DAE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE9ECBC1AA18E470062DAE3;
+			remoteInfo = DarkTower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF032BF81AA3A20C00AA9204 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		BF197F681AABB0610003AE04 /* InventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		BF2FCCF11AABFDE40033E59C /* CurseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurseViewController.swift; sourceTree = "<group>"; };
+		BF2FCCF31AAC1BA30033E59C /* InstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		BF2FCCF51AAC1C420033E59C /* dark_tower.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = dark_tower.pdf; path = ../../../New/DarkTower/DarkTower/DarkTower/dark_tower.pdf; sourceTree = "<group>"; };
+		BF4B0A761AA2B2B90020CF80 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		BF4E28001AA1BFE200C92330 /* BattleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BattleViewController.swift; path = ../../../../git/NewDarkTower/NewDarkTower/BattleViewController.swift; sourceTree = "<group>"; };
+		BF4E28011AA1BFE200C92330 /* BazaarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BazaarViewController.swift; path = ../../../../git/NewDarkTower/NewDarkTower/BazaarViewController.swift; sourceTree = "<group>"; };
+		BF4E28021AA1BFE200C92330 /* Dark_TowerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dark_TowerViewController.swift; path = ../../../../git/NewDarkTower/NewDarkTower/Dark_TowerViewController.swift; sourceTree = "<group>"; };
+		BF4E28031AA1BFE200C92330 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMenuViewController.swift; path = ../../../../git/NewDarkTower/NewDarkTower/MainMenuViewController.swift; sourceTree = "<group>"; };
+		BF4E28041AA1BFE200C92330 /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetupViewController.swift; path = ../../../../git/NewDarkTower/NewDarkTower/SetupViewController.swift; sourceTree = "<group>"; };
+		BF4E28051AA1BFE200C92330 /* TowerStatusController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TowerStatusController.swift; path = ../../../../git/NewDarkTower/NewDarkTower/TowerStatusController.swift; sourceTree = "<group>"; };
+		BF4E28181AA2210F00C92330 /* DarkTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkTower.swift; sourceTree = "<group>"; };
+		BF4E281A1AA2487200C92330 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		BF55A8A41AA1930700B8776F /* Arisilon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arisilon.png; sourceTree = "<group>"; };
+		BF55A8A51AA1930700B8776F /* bazaar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bazaar.jpg; sourceTree = "<group>"; };
+		BF55A8A61AA1930700B8776F /* bazaar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bazaar.png; sourceTree = "<group>"; };
+		BF55A8A71AA1930700B8776F /* beast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beast.jpg; sourceTree = "<group>"; };
+		BF55A8A81AA1930700B8776F /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = "<group>"; };
+		BF55A8A91AA1930700B8776F /* board.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = board.gif; sourceTree = "<group>"; };
+		BF55A8AA1AA1930700B8776F /* brasskey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brasskey.jpg; sourceTree = "<group>"; };
+		BF55A8AB1AA1930700B8776F /* brigands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brigands.jpg; sourceTree = "<group>"; };
+		BF55A8AC1AA1930700B8776F /* Brynthia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brynthia.png; sourceTree = "<group>"; };
+		BF55A8AD1AA1930700B8776F /* cursed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cursed.jpg; sourceTree = "<group>"; };
+		BF55A8AE1AA1930700B8776F /* darktower.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = darktower.gif; sourceTree = "<group>"; };
+		BF55A8AF1AA1930700B8776F /* dg_classm32.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dg_classm32.gif; sourceTree = "<group>"; };
+		BF55A8B01AA1930700B8776F /* dg_dragon32.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dg_dragon32.gif; sourceTree = "<group>"; };
+		BF55A8B11AA1930700B8776F /* dg_iso32.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dg_iso32.gif; sourceTree = "<group>"; };
+		BF55A8B21AA1930700B8776F /* dragon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dragon.jpg; sourceTree = "<group>"; };
+		BF55A8B31AA1930700B8776F /* dtbutton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dtbutton.gif; sourceTree = "<group>"; };
+		BF55A8B41AA1930700B8776F /* dtlogo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dtlogo1.jpg; sourceTree = "<group>"; };
+		BF55A8B51AA1930700B8776F /* Durnin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Durnin.png; sourceTree = "<group>"; };
+		BF55A8B61AA1930700B8776F /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
+		BF55A8B71AA1930700B8776F /* gold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gold.jpg; sourceTree = "<group>"; };
+		BF55A8B81AA1930700B8776F /* goldkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldkey.jpg; sourceTree = "<group>"; };
+		BF55A8B91AA1930700B8776F /* healer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = healer.jpg; sourceTree = "<group>"; };
+		BF55A8BA1AA1930700B8776F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		BF55A8BB1AA1930700B8776F /* keymissing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = keymissing.jpg; sourceTree = "<group>"; };
+		BF55A8BC1AA1930700B8776F /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo.gif; sourceTree = "<group>"; };
+		BF55A8BD1AA1930700B8776F /* lost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lost.jpg; sourceTree = "<group>"; };
+		BF55A8BE1AA1930700B8776F /* oldicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oldicon.png; sourceTree = "<group>"; };
+		BF55A8BF1AA1930700B8776F /* pegasus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pegasus.jpg; sourceTree = "<group>"; };
+		BF55A8C01AA1930700B8776F /* plague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plague.jpg; sourceTree = "<group>"; };
+		BF55A8C11AA1930700B8776F /* ruin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruin.png; sourceTree = "<group>"; };
+		BF55A8C21AA1930700B8776F /* sanctuary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sanctuary.png; sourceTree = "<group>"; };
+		BF55A8C31AA1930700B8776F /* scout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scout.jpg; sourceTree = "<group>"; };
+		BF55A8C41AA1930700B8776F /* silverkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silverkey.jpg; sourceTree = "<group>"; };
+		BF55A8C51AA1930700B8776F /* sword.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sword.jpg; sourceTree = "<group>"; };
+		BF55A8C61AA1930700B8776F /* tomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tomb.png; sourceTree = "<group>"; };
+		BF55A8C71AA1930700B8776F /* victory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = victory.jpg; sourceTree = "<group>"; };
+		BF55A8C81AA1930700B8776F /* warrior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = warrior.jpg; sourceTree = "<group>"; };
+		BF55A8C91AA1930700B8776F /* warriors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = warriors.jpg; sourceTree = "<group>"; };
+		BF55A8CA1AA1930700B8776F /* wizard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wizard.jpg; sourceTree = "<group>"; };
+		BF55A8CB1AA1930700B8776F /* Zenon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zenon.png; sourceTree = "<group>"; };
+		BF55A8CD1AA1930700B8776F /* battle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = battle.wav; sourceTree = "<group>"; };
+		BF55A8CE1AA1930700B8776F /* bazaar-closed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bazaar-closed.wav"; sourceTree = "<group>"; };
+		BF55A8CF1AA1930700B8776F /* bazaar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bazaar.wav; sourceTree = "<group>"; };
+		BF55A8D01AA1930700B8776F /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		BF55A8D11AA1930700B8776F /* clear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clear.wav; sourceTree = "<group>"; };
+		BF55A8D21AA1930700B8776F /* darktower.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = darktower.wav; sourceTree = "<group>"; };
+		BF55A8D31AA1930700B8776F /* dragon-kill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "dragon-kill.wav"; sourceTree = "<group>"; };
+		BF55A8D41AA1930700B8776F /* dragon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dragon.wav; sourceTree = "<group>"; };
+		BF55A8D51AA1930700B8776F /* end-turn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "end-turn.wav"; sourceTree = "<group>"; };
+		BF55A8D61AA1930700B8776F /* enemy-hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "enemy-hit.wav"; sourceTree = "<group>"; };
+		BF55A8D71AA1930700B8776F /* frontier.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = frontier.wav; sourceTree = "<group>"; };
+		BF55A8D81AA1930700B8776F /* intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = intro.wav; sourceTree = "<group>"; };
+		BF55A8D91AA1930700B8776F /* lost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lost.wav; sourceTree = "<group>"; };
+		BF55A8DA1AA1930700B8776F /* pegasus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pegasus.wav; sourceTree = "<group>"; };
+		BF55A8DB1AA1930700B8776F /* plague.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = plague.wav; sourceTree = "<group>"; };
+		BF55A8DC1AA1930700B8776F /* player-hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "player-hit.wav"; sourceTree = "<group>"; };
+		BF55A8DD1AA1930700B8776F /* rotate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rotate.wav; sourceTree = "<group>"; };
+		BF55A8DE1AA1930700B8776F /* sanctuary.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sanctuary.wav; sourceTree = "<group>"; };
+		BF55A8DF1AA1930700B8776F /* starving.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = starving.wav; sourceTree = "<group>"; };
+		BF55A8E01AA1930700B8776F /* tomb-battle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tomb-battle.wav"; sourceTree = "<group>"; };
+		BF55A8E11AA1930700B8776F /* tomb-nothing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tomb-nothing.wav"; sourceTree = "<group>"; };
+		BF55A8E21AA1930700B8776F /* tomb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tomb.wav; sourceTree = "<group>"; };
+		BF55A8E31AA1930700B8776F /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrong.wav; sourceTree = "<group>"; };
+		BFAD1BA71AAC21E000E9659D /* RiddleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiddleViewController.swift; sourceTree = "<group>"; };
+		BFE9ECBD1AA18E470062DAE3 /* DarkTower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkTower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE9ECC11AA18E470062DAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE9ECC21AA18E470062DAE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFE9ECC41AA18E470062DAE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFE9ECC71AA18E470062DAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFE9ECC91AA18E470062DAE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFE9ECCC1AA18E470062DAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BFE9ECD21AA18E470062DAE3 /* DarkTowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkTowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE9ECD71AA18E470062DAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE9ECD81AA18E470062DAE3 /* DarkTowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTowerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE9ECBA1AA18E470062DAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE9ECCF1AA18E470062DAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF55A8A31AA1930700B8776F /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				BF2FCCF51AAC1C420033E59C /* dark_tower.pdf */,
+				BF55A8A41AA1930700B8776F /* Arisilon.png */,
+				BF55A8A51AA1930700B8776F /* bazaar.jpg */,
+				BF55A8A61AA1930700B8776F /* bazaar.png */,
+				BF55A8A71AA1930700B8776F /* beast.jpg */,
+				BF55A8A81AA1930700B8776F /* black.jpg */,
+				BF55A8A91AA1930700B8776F /* board.gif */,
+				BF55A8AA1AA1930700B8776F /* brasskey.jpg */,
+				BF55A8AB1AA1930700B8776F /* brigands.jpg */,
+				BF55A8AC1AA1930700B8776F /* Brynthia.png */,
+				BF55A8AD1AA1930700B8776F /* cursed.jpg */,
+				BF55A8AE1AA1930700B8776F /* darktower.gif */,
+				BF55A8AF1AA1930700B8776F /* dg_classm32.gif */,
+				BF55A8B01AA1930700B8776F /* dg_dragon32.gif */,
+				BF55A8B11AA1930700B8776F /* dg_iso32.gif */,
+				BF55A8B21AA1930700B8776F /* dragon.jpg */,
+				BF55A8B31AA1930700B8776F /* dtbutton.gif */,
+				BF55A8B41AA1930700B8776F /* dtlogo1.jpg */,
+				BF55A8B51AA1930700B8776F /* Durnin.png */,
+				BF55A8B61AA1930700B8776F /* food.jpg */,
+				BF55A8B71AA1930700B8776F /* gold.jpg */,
+				BF55A8B81AA1930700B8776F /* goldkey.jpg */,
+				BF55A8B91AA1930700B8776F /* healer.jpg */,
+				BF55A8BA1AA1930700B8776F /* icon.png */,
+				BF55A8BB1AA1930700B8776F /* keymissing.jpg */,
+				BF55A8BC1AA1930700B8776F /* logo.gif */,
+				BF55A8BD1AA1930700B8776F /* lost.jpg */,
+				BF55A8BE1AA1930700B8776F /* oldicon.png */,
+				BF55A8BF1AA1930700B8776F /* pegasus.jpg */,
+				BF55A8C01AA1930700B8776F /* plague.jpg */,
+				BF55A8C11AA1930700B8776F /* ruin.png */,
+				BF55A8C21AA1930700B8776F /* sanctuary.png */,
+				BF55A8C31AA1930700B8776F /* scout.jpg */,
+				BF55A8C41AA1930700B8776F /* silverkey.jpg */,
+				BF55A8C51AA1930700B8776F /* sword.jpg */,
+				BF55A8C61AA1930700B8776F /* tomb.png */,
+				BF55A8C71AA1930700B8776F /* victory.jpg */,
+				BF55A8C81AA1930700B8776F /* warrior.jpg */,
+				BF55A8C91AA1930700B8776F /* warriors.jpg */,
+				BF55A8CA1AA1930700B8776F /* wizard.jpg */,
+				BF55A8CB1AA1930700B8776F /* Zenon.png */,
+			);
+			name = Graphics;
+			path = "../../../../DarkTower/Dark Tower/Graphics";
+			sourceTree = "<group>";
+		};
+		BF55A8CC1AA1930700B8776F /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				BF55A8CD1AA1930700B8776F /* battle.wav */,
+				BF55A8CE1AA1930700B8776F /* bazaar-closed.wav */,
+				BF55A8CF1AA1930700B8776F /* bazaar.wav */,
+				BF55A8D01AA1930700B8776F /* beep.wav */,
+				BF55A8D11AA1930700B8776F /* clear.wav */,
+				BF55A8D21AA1930700B8776F /* darktower.wav */,
+				BF55A8D31AA1930700B8776F /* dragon-kill.wav */,
+				BF55A8D41AA1930700B8776F /* dragon.wav */,
+				BF55A8D51AA1930700B8776F /* end-turn.wav */,
+				BF55A8D61AA1930700B8776F /* enemy-hit.wav */,
+				BF55A8D71AA1930700B8776F /* frontier.wav */,
+				BF55A8D81AA1930700B8776F /* intro.wav */,
+				BF55A8D91AA1930700B8776F /* lost.wav */,
+				BF55A8DA1AA1930700B8776F /* pegasus.wav */,
+				BF55A8DB1AA1930700B8776F /* plague.wav */,
+				BF55A8DC1AA1930700B8776F /* player-hit.wav */,
+				BF55A8DD1AA1930700B8776F /* rotate.wav */,
+				BF55A8DE1AA1930700B8776F /* sanctuary.wav */,
+				BF55A8DF1AA1930700B8776F /* starving.wav */,
+				BF55A8E01AA1930700B8776F /* tomb-battle.wav */,
+				BF55A8E11AA1930700B8776F /* tomb-nothing.wav */,
+				BF55A8E21AA1930700B8776F /* tomb.wav */,
+				BF55A8E31AA1930700B8776F /* wrong.wav */,
+			);
+			name = Sound;
+			path = "../../../../DarkTower/Dark Tower/Sound";
+			sourceTree = "<group>";
+		};
+		BFE9ECB41AA18E470062DAE3 = {
+			isa = PBXGroup;
+			children = (
+				BFE9ECBF1AA18E470062DAE3 /* DarkTower */,
+				BFE9ECD51AA18E470062DAE3 /* DarkTowerTests */,
+				BFE9ECBE1AA18E470062DAE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE9ECBE1AA18E470062DAE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE9ECBD1AA18E470062DAE3 /* DarkTower.app */,
+				BFE9ECD21AA18E470062DAE3 /* DarkTowerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE9ECBF1AA18E470062DAE3 /* DarkTower */ = {
+			isa = PBXGroup;
+			children = (
+				BFE9ECC61AA18E470062DAE3 /* Main.storyboard */,
+				BF4B0A761AA2B2B90020CF80 /* Player.swift */,
+				BF4E28181AA2210F00C92330 /* DarkTower.swift */,
+				BF4E28021AA1BFE200C92330 /* Dark_TowerViewController.swift */,
+				BF4E28041AA1BFE200C92330 /* SetupViewController.swift */,
+				BF4E28031AA1BFE200C92330 /* MainMenuViewController.swift */,
+				BF4E28051AA1BFE200C92330 /* TowerStatusController.swift */,
+				BF4E28001AA1BFE200C92330 /* BattleViewController.swift */,
+				BF4E28011AA1BFE200C92330 /* BazaarViewController.swift */,
+				BF2FCCF11AABFDE40033E59C /* CurseViewController.swift */,
+				BFAD1BA71AAC21E000E9659D /* RiddleViewController.swift */,
+				BF197F681AABB0610003AE04 /* InventoryViewController.swift */,
+				BF2FCCF31AAC1BA30033E59C /* InstructionsViewController.swift */,
+				BFE9ECC21AA18E470062DAE3 /* AppDelegate.swift */,
+				BFE9ECC41AA18E470062DAE3 /* ViewController.swift */,
+				BF032BF81AA3A20C00AA9204 /* Random.swift */,
+				BF4E281A1AA2487200C92330 /* SoundManager.swift */,
+				BF55A8A31AA1930700B8776F /* Graphics */,
+				BF55A8CC1AA1930700B8776F /* Sound */,
+				BFE9ECC91AA18E470062DAE3 /* Images.xcassets */,
+				BFE9ECCB1AA18E470062DAE3 /* LaunchScreen.xib */,
+				BFE9ECC01AA18E470062DAE3 /* Supporting Files */,
+			);
+			path = DarkTower;
+			sourceTree = "<group>";
+		};
+		BFE9ECC01AA18E470062DAE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFE9ECC11AA18E470062DAE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFE9ECD51AA18E470062DAE3 /* DarkTowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE9ECD81AA18E470062DAE3 /* DarkTowerTests.swift */,
+				BFE9ECD61AA18E470062DAE3 /* Supporting Files */,
+			);
+			path = DarkTowerTests;
+			sourceTree = "<group>";
+		};
+		BFE9ECD61AA18E470062DAE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFE9ECD71AA18E470062DAE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE9ECBC1AA18E470062DAE3 /* DarkTower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE9ECDC1AA18E470062DAE3 /* Build configuration list for PBXNativeTarget "DarkTower" */;
+			buildPhases = (
+				BFE9ECB91AA18E470062DAE3 /* Sources */,
+				BFE9ECBA1AA18E470062DAE3 /* Frameworks */,
+				BFE9ECBB1AA18E470062DAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkTower;
+			productName = DarkTower;
+			productReference = BFE9ECBD1AA18E470062DAE3 /* DarkTower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFE9ECD11AA18E470062DAE3 /* DarkTowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE9ECDF1AA18E470062DAE3 /* Build configuration list for PBXNativeTarget "DarkTowerTests" */;
+			buildPhases = (
+				BFE9ECCE1AA18E470062DAE3 /* Sources */,
+				BFE9ECCF1AA18E470062DAE3 /* Frameworks */,
+				BFE9ECD01AA18E470062DAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE9ECD41AA18E470062DAE3 /* PBXTargetDependency */,
+			);
+			name = DarkTowerTests;
+			productName = DarkTowerTests;
+			productReference = BFE9ECD21AA18E470062DAE3 /* DarkTowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE9ECB51AA18E470062DAE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Louis Revor";
+				TargetAttributes = {
+					BFE9ECBC1AA18E470062DAE3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BFE9ECD11AA18E470062DAE3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BFE9ECBC1AA18E470062DAE3;
+					};
+				};
+			};
+			buildConfigurationList = BFE9ECB81AA18E470062DAE3 /* Build configuration list for PBXProject "DarkTower" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE9ECB41AA18E470062DAE3;
+			productRefGroup = BFE9ECBE1AA18E470062DAE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE9ECBC1AA18E470062DAE3 /* DarkTower */,
+				BFE9ECD11AA18E470062DAE3 /* DarkTowerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE9ECBB1AA18E470062DAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF55A9211AA1930700B8776F /* tomb.wav in Resources */,
+				BF55A9111AA1930700B8776F /* darktower.wav in Resources */,
+				BF55A8FA1AA1930700B8776F /* icon.png in Resources */,
+				BF55A91D1AA1930700B8776F /* sanctuary.wav in Resources */,
+				BF55A90E1AA1930700B8776F /* bazaar.wav in Resources */,
+				BF55A8E41AA1930700B8776F /* Arisilon.png in Resources */,
+				BFE9ECC81AA18E470062DAE3 /* Main.storyboard in Resources */,
+				BF55A8E91AA1930700B8776F /* board.gif in Resources */,
+				BF55A91A1AA1930700B8776F /* plague.wav in Resources */,
+				BF55A91E1AA1930700B8776F /* starving.wav in Resources */,
+				BF55A9021AA1930700B8776F /* sanctuary.png in Resources */,
+				BF55A8F51AA1930700B8776F /* Durnin.png in Resources */,
+				BF55A8EA1AA1930700B8776F /* brasskey.jpg in Resources */,
+				BF2FCCF61AAC1C420033E59C /* dark_tower.pdf in Resources */,
+				BF55A8EC1AA1930700B8776F /* Brynthia.png in Resources */,
+				BF55A9091AA1930700B8776F /* warriors.jpg in Resources */,
+				BF55A91B1AA1930700B8776F /* player-hit.wav in Resources */,
+				BF55A9071AA1930700B8776F /* victory.jpg in Resources */,
+				BFE9ECCD1AA18E470062DAE3 /* LaunchScreen.xib in Resources */,
+				BF55A9141AA1930700B8776F /* end-turn.wav in Resources */,
+				BF55A9181AA1930700B8776F /* lost.wav in Resources */,
+				BF55A9101AA1930700B8776F /* clear.wav in Resources */,
+				BF55A8EE1AA1930700B8776F /* darktower.gif in Resources */,
+				BF55A8FC1AA1930700B8776F /* logo.gif in Resources */,
+				BF55A8FD1AA1930700B8776F /* lost.jpg in Resources */,
+				BF55A8F91AA1930700B8776F /* healer.jpg in Resources */,
+				BF55A8E51AA1930700B8776F /* bazaar.jpg in Resources */,
+				BF55A9051AA1930700B8776F /* sword.jpg in Resources */,
+				BF55A9081AA1930700B8776F /* warrior.jpg in Resources */,
+				BF55A9131AA1930700B8776F /* dragon.wav in Resources */,
+				BF55A9121AA1930700B8776F /* dragon-kill.wav in Resources */,
+				BF55A90F1AA1930700B8776F /* beep.wav in Resources */,
+				BF55A8F81AA1930700B8776F /* goldkey.jpg in Resources */,
+				BF55A8E61AA1930700B8776F /* bazaar.png in Resources */,
+				BF55A8FB1AA1930700B8776F /* keymissing.jpg in Resources */,
+				BF55A8E81AA1930700B8776F /* black.jpg in Resources */,
+				BF55A9201AA1930700B8776F /* tomb-nothing.wav in Resources */,
+				BF55A8F21AA1930700B8776F /* dragon.jpg in Resources */,
+				BF55A9171AA1930700B8776F /* intro.wav in Resources */,
+				BF55A8FE1AA1930700B8776F /* oldicon.png in Resources */,
+				BF55A8F71AA1930700B8776F /* gold.jpg in Resources */,
+				BF55A9221AA1930700B8776F /* wrong.wav in Resources */,
+				BF55A91F1AA1930700B8776F /* tomb-battle.wav in Resources */,
+				BF55A8ED1AA1930700B8776F /* cursed.jpg in Resources */,
+				BF55A8F61AA1930700B8776F /* food.jpg in Resources */,
+				BF55A8F41AA1930700B8776F /* dtlogo1.jpg in Resources */,
+				BF55A9011AA1930700B8776F /* ruin.png in Resources */,
+				BF55A9001AA1930700B8776F /* plague.jpg in Resources */,
+				BF55A9161AA1930700B8776F /* frontier.wav in Resources */,
+				BF55A90C1AA1930700B8776F /* battle.wav in Resources */,
+				BF55A9191AA1930700B8776F /* pegasus.wav in Resources */,
+				BF55A8FF1AA1930700B8776F /* pegasus.jpg in Resources */,
+				BF55A91C1AA1930700B8776F /* rotate.wav in Resources */,
+				BF55A9151AA1930700B8776F /* enemy-hit.wav in Resources */,
+				BF55A90D1AA1930700B8776F /* bazaar-closed.wav in Resources */,
+				BF55A8EF1AA1930700B8776F /* dg_classm32.gif in Resources */,
+				BF55A8EB1AA1930700B8776F /* brigands.jpg in Resources */,
+				BF55A8F11AA1930700B8776F /* dg_iso32.gif in Resources */,
+				BF55A9061AA1930700B8776F /* tomb.png in Resources */,
+				BF55A9041AA1930700B8776F /* silverkey.jpg in Resources */,
+				BF55A8F01AA1930700B8776F /* dg_dragon32.gif in Resources */,
+				BF55A8F31AA1930700B8776F /* dtbutton.gif in Resources */,
+				BF55A90A1AA1930700B8776F /* wizard.jpg in Resources */,
+				BF55A9031AA1930700B8776F /* scout.jpg in Resources */,
+				BFE9ECCA1AA18E470062DAE3 /* Images.xcassets in Resources */,
+				BF55A8E71AA1930700B8776F /* beast.jpg in Resources */,
+				BF55A90B1AA1930700B8776F /* Zenon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE9ECD01AA18E470062DAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE9ECB91AA18E470062DAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4B0A771AA2B2B90020CF80 /* Player.swift in Sources */,
+				BF4E280A1AA1BFE200C92330 /* MainMenuViewController.swift in Sources */,
+				BF4E28071AA1BFE200C92330 /* BattleViewController.swift in Sources */,
+				BF2FCCF21AABFDE40033E59C /* CurseViewController.swift in Sources */,
+				BF4E28091AA1BFE200C92330 /* Dark_TowerViewController.swift in Sources */,
+				BF197F691AABB0610003AE04 /* InventoryViewController.swift in Sources */,
+				BF4E28081AA1BFE200C92330 /* BazaarViewController.swift in Sources */,
+				BFE9ECC51AA18E470062DAE3 /* ViewController.swift in Sources */,
+				BFAD1BA81AAC21E000E9659D /* RiddleViewController.swift in Sources */,
+				BFE9ECC31AA18E470062DAE3 /* AppDelegate.swift in Sources */,
+				BF2FCCF41AAC1BA30033E59C /* InstructionsViewController.swift in Sources */,
+				BF4E280B1AA1BFE200C92330 /* SetupViewController.swift in Sources */,
+				BF032BF91AA3A20C00AA9204 /* Random.swift in Sources */,
+				BF4E28191AA2210F00C92330 /* DarkTower.swift in Sources */,
+				BF4E280C1AA1BFE200C92330 /* TowerStatusController.swift in Sources */,
+				BF4E281B1AA2487200C92330 /* SoundManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE9ECCE1AA18E470062DAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE9ECD91AA18E470062DAE3 /* DarkTowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFE9ECD41AA18E470062DAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE9ECBC1AA18E470062DAE3 /* DarkTower */;
+			targetProxy = BFE9ECD31AA18E470062DAE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFE9ECC61AA18E470062DAE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE9ECC71AA18E470062DAE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFE9ECCB1AA18E470062DAE3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE9ECCC1AA18E470062DAE3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE9ECDA1AA18E470062DAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFE9ECDB1AA18E470062DAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE9ECDD1AA18E470062DAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DarkTower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BFE9ECDE1AA18E470062DAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DarkTower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BFE9ECE01AA18E470062DAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DarkTowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkTower.app/DarkTower";
+			};
+			name = Debug;
+		};
+		BFE9ECE11AA18E470062DAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DarkTowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkTower.app/DarkTower";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE9ECB81AA18E470062DAE3 /* Build configuration list for PBXProject "DarkTower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE9ECDA1AA18E470062DAE3 /* Debug */,
+				BFE9ECDB1AA18E470062DAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE9ECDC1AA18E470062DAE3 /* Build configuration list for PBXNativeTarget "DarkTower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE9ECDD1AA18E470062DAE3 /* Debug */,
+				BFE9ECDE1AA18E470062DAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE9ECDF1AA18E470062DAE3 /* Build configuration list for PBXNativeTarget "DarkTowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE9ECE01AA18E470062DAE3 /* Debug */,
+				BFE9ECE11AA18E470062DAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE9ECB51AA18E470062DAE3 /* Project object */;
+}

@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* Dark_TowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Dark_TowerViewController.m */; };
+		BF27B1C71134C464006F7227 /* BattleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF27B1C31134C464006F7227 /* BattleViewController.xib */; };
+		BF27B1C81134C464006F7227 /* Dark_TowerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF27B1C41134C464006F7227 /* Dark_TowerViewController.xib */; };
+		BF27B1C91134C464006F7227 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF27B1C51134C464006F7227 /* MainMenuViewController.xib */; };
+		BF27B1CA1134C464006F7227 /* SetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF27B1C61134C464006F7227 /* SetupViewController.xib */; };
+		BF27B1D31134C615006F7227 /* TowerStatusController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF27B1D21134C615006F7227 /* TowerStatusController.m */; };
+		BF27B1D71134C638006F7227 /* TowerStatusController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF27B1D61134C638006F7227 /* TowerStatusController.xib */; };
+		BF3C5C2B1130B19000DAA5BA /* DarkTower.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3C5C221130B19000DAA5BA /* DarkTower.m */; };
+		BF3C5C2C1130B19000DAA5BA /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3C5C241130B19000DAA5BA /* Player.m */; };
+		BF3C5C2D1130B19000DAA5BA /* Random.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3C5C261130B19000DAA5BA /* Random.m */; };
+		BF3C5C2E1130B19000DAA5BA /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3C5C281130B19000DAA5BA /* SoundManager.m */; };
+		BF3C5CBA1130B24900DAA5BA /* Arisilon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C7C1130B24800DAA5BA /* Arisilon.png */; };
+		BF3C5CBB1130B24900DAA5BA /* bazaar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C7D1130B24800DAA5BA /* bazaar.jpg */; };
+		BF3C5CBC1130B24900DAA5BA /* bazaar.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C7E1130B24800DAA5BA /* bazaar.png */; };
+		BF3C5CBD1130B24900DAA5BA /* beast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C7F1130B24800DAA5BA /* beast.jpg */; };
+		BF3C5CBE1130B24900DAA5BA /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C801130B24800DAA5BA /* black.jpg */; };
+		BF3C5CBF1130B24900DAA5BA /* board.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C811130B24800DAA5BA /* board.gif */; };
+		BF3C5CC01130B24900DAA5BA /* brasskey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C821130B24800DAA5BA /* brasskey.jpg */; };
+		BF3C5CC11130B24900DAA5BA /* brigands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C831130B24800DAA5BA /* brigands.jpg */; };
+		BF3C5CC21130B24900DAA5BA /* Brynthia.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C841130B24800DAA5BA /* Brynthia.png */; };
+		BF3C5CC31130B24900DAA5BA /* cursed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C851130B24800DAA5BA /* cursed.jpg */; };
+		BF3C5CC41130B24900DAA5BA /* darktower.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C861130B24800DAA5BA /* darktower.gif */; };
+		BF3C5CC51130B24900DAA5BA /* dg_classm32.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C871130B24800DAA5BA /* dg_classm32.gif */; };
+		BF3C5CC61130B24900DAA5BA /* dg_dragon32.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C881130B24800DAA5BA /* dg_dragon32.gif */; };
+		BF3C5CC71130B24900DAA5BA /* dg_iso32.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C891130B24800DAA5BA /* dg_iso32.gif */; };
+		BF3C5CC81130B24900DAA5BA /* dragon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8A1130B24800DAA5BA /* dragon.jpg */; };
+		BF3C5CC91130B24900DAA5BA /* Durnin.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8B1130B24800DAA5BA /* Durnin.png */; };
+		BF3C5CCA1130B24900DAA5BA /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8C1130B24800DAA5BA /* food.jpg */; };
+		BF3C5CCB1130B24900DAA5BA /* gold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8D1130B24800DAA5BA /* gold.jpg */; };
+		BF3C5CCC1130B24900DAA5BA /* goldkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8E1130B24800DAA5BA /* goldkey.jpg */; };
+		BF3C5CCD1130B24900DAA5BA /* healer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8F1130B24800DAA5BA /* healer.jpg */; };
+		BF3C5CCE1130B24900DAA5BA /* keymissing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C901130B24800DAA5BA /* keymissing.jpg */; };
+		BF3C5CCF1130B24900DAA5BA /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C911130B24800DAA5BA /* logo.gif */; };
+		BF3C5CD01130B24900DAA5BA /* lost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C921130B24800DAA5BA /* lost.jpg */; };
+		BF3C5CD11130B24900DAA5BA /* pegasus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C931130B24800DAA5BA /* pegasus.jpg */; };
+		BF3C5CD21130B24900DAA5BA /* plague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C941130B24800DAA5BA /* plague.jpg */; };
+		BF3C5CD31130B24900DAA5BA /* ruin.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C951130B24800DAA5BA /* ruin.png */; };
+		BF3C5CD41130B24900DAA5BA /* sanctuary.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C961130B24800DAA5BA /* sanctuary.png */; };
+		BF3C5CD51130B24900DAA5BA /* scout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C971130B24800DAA5BA /* scout.jpg */; };
+		BF3C5CD61130B24900DAA5BA /* silverkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C981130B24800DAA5BA /* silverkey.jpg */; };
+		BF3C5CD71130B24900DAA5BA /* sword.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C991130B24800DAA5BA /* sword.jpg */; };
+		BF3C5CD81130B24900DAA5BA /* tomb.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C9A1130B24800DAA5BA /* tomb.png */; };
+		BF3C5CD91130B24900DAA5BA /* victory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C9B1130B24800DAA5BA /* victory.jpg */; };
+		BF3C5CDA1130B24900DAA5BA /* warrior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C9C1130B24800DAA5BA /* warrior.jpg */; };
+		BF3C5CDB1130B24900DAA5BA /* warriors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C9D1130B24800DAA5BA /* warriors.jpg */; };
+		BF3C5CDC1130B24900DAA5BA /* wizard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C9E1130B24800DAA5BA /* wizard.jpg */; };
+		BF3C5CDD1130B24900DAA5BA /* Zenon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C9F1130B24800DAA5BA /* Zenon.png */; };
+		BF3C5CDF1130B24900DAA5BA /* battle.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CA31130B24800DAA5BA /* battle.wav */; };
+		BF3C5CE01130B24900DAA5BA /* bazaar-closed.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CA41130B24800DAA5BA /* bazaar-closed.wav */; };
+		BF3C5CE11130B24900DAA5BA /* bazaar.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CA51130B24800DAA5BA /* bazaar.wav */; };
+		BF3C5CE21130B24900DAA5BA /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CA61130B24800DAA5BA /* beep.wav */; };
+		BF3C5CE31130B24900DAA5BA /* clear.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CA71130B24800DAA5BA /* clear.wav */; };
+		BF3C5CE41130B24900DAA5BA /* darktower.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CA81130B24800DAA5BA /* darktower.wav */; };
+		BF3C5CE51130B24900DAA5BA /* dragon-kill.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CA91130B24800DAA5BA /* dragon-kill.wav */; };
+		BF3C5CE61130B24900DAA5BA /* dragon.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CAA1130B24800DAA5BA /* dragon.wav */; };
+		BF3C5CE71130B24900DAA5BA /* end-turn.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CAB1130B24800DAA5BA /* end-turn.wav */; };
+		BF3C5CE81130B24900DAA5BA /* enemy-hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CAC1130B24800DAA5BA /* enemy-hit.wav */; };
+		BF3C5CE91130B24900DAA5BA /* frontier.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CAD1130B24800DAA5BA /* frontier.wav */; };
+		BF3C5CEA1130B24900DAA5BA /* intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CAE1130B24800DAA5BA /* intro.wav */; };
+		BF3C5CEB1130B24900DAA5BA /* lost.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CAF1130B24800DAA5BA /* lost.wav */; };
+		BF3C5CEC1130B24900DAA5BA /* pegasus.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CB01130B24900DAA5BA /* pegasus.wav */; };
+		BF3C5CED1130B24900DAA5BA /* plague.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CB11130B24900DAA5BA /* plague.wav */; };
+		BF3C5CEE1130B24900DAA5BA /* player-hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CB21130B24900DAA5BA /* player-hit.wav */; };
+		BF3C5CEF1130B24900DAA5BA /* rotate.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CB31130B24900DAA5BA /* rotate.wav */; };
+		BF3C5CF01130B24900DAA5BA /* sanctuary.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CB41130B24900DAA5BA /* sanctuary.wav */; };
+		BF3C5CF11130B24900DAA5BA /* starving.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CB51130B24900DAA5BA /* starving.wav */; };
+		BF3C5CF21130B24900DAA5BA /* tomb-battle.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CB61130B24900DAA5BA /* tomb-battle.wav */; };
+		BF3C5CF31130B24900DAA5BA /* tomb-nothing.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CB71130B24900DAA5BA /* tomb-nothing.wav */; };
+		BF3C5CF41130B24900DAA5BA /* tomb.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CB81130B24900DAA5BA /* tomb.wav */; };
+		BF3C5CF51130B24900DAA5BA /* wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5CB91130B24900DAA5BA /* wrong.wav */; };
+		BF3C5D051130B2B900DAA5BA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3C5D041130B2B900DAA5BA /* AudioToolbox.framework */; };
+		BF3C5D071130B2B900DAA5BA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3C5D061130B2B900DAA5BA /* MediaPlayer.framework */; };
+		BF3C5D1D1130BAB700DAA5BA /* dtbutton.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5D1A1130BAB700DAA5BA /* dtbutton.gif */; };
+		BF3C5D1E1130BAB700DAA5BA /* dtlogo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5D1B1130BAB700DAA5BA /* dtlogo1.jpg */; };
+		BF3C5D1F1130BAB700DAA5BA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5D1C1130BAB700DAA5BA /* icon.png */; };
+		BF579BA61130FADC00A7C7A3 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF579BA51130FADC00A7C7A3 /* MainMenuViewController.m */; };
+		BF76049F1A9C1DFE00896D26 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF76049E1A9C1DFE00896D26 /* Default-568h@2x.png */; };
+		BF8A997B11323C130005119D /* BattleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8A997A11323C130005119D /* BattleViewController.m */; };
+		BFA14D501131B90D0043BC0C /* BazaarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA14D4D1131B90D0043BC0C /* BazaarViewController.m */; };
+		BFA14D511131B90D0043BC0C /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA14D4F1131B90D0043BC0C /* SetupViewController.m */; };
+		BFA14D551131B93B0043BC0C /* BazaarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA14D541131B93B0043BC0C /* BazaarViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Dark Tower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Tower.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* Dark_TowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dark_TowerViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* Dark_TowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dark_TowerViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Dark_Tower_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dark_Tower_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Dark_Tower-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Dark_Tower-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BF27B1C31134C464006F7227 /* BattleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BattleViewController.xib; path = Classes/BattleViewController.xib; sourceTree = "<group>"; };
+		BF27B1C41134C464006F7227 /* Dark_TowerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Dark_TowerViewController.xib; path = Classes/Dark_TowerViewController.xib; sourceTree = "<group>"; };
+		BF27B1C51134C464006F7227 /* MainMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainMenuViewController.xib; path = Classes/MainMenuViewController.xib; sourceTree = "<group>"; };
+		BF27B1C61134C464006F7227 /* SetupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SetupViewController.xib; path = Classes/SetupViewController.xib; sourceTree = "<group>"; };
+		BF27B1D11134C615006F7227 /* TowerStatusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerStatusController.h; sourceTree = "<group>"; };
+		BF27B1D21134C615006F7227 /* TowerStatusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TowerStatusController.m; sourceTree = "<group>"; };
+		BF27B1D61134C638006F7227 /* TowerStatusController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TowerStatusController.xib; path = Classes/TowerStatusController.xib; sourceTree = "<group>"; };
+		BF3C5C211130B19000DAA5BA /* DarkTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkTower.h; sourceTree = "<group>"; };
+		BF3C5C221130B19000DAA5BA /* DarkTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkTower.m; sourceTree = "<group>"; };
+		BF3C5C231130B19000DAA5BA /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		BF3C5C241130B19000DAA5BA /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		BF3C5C251130B19000DAA5BA /* Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
+		BF3C5C261130B19000DAA5BA /* Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Random.m; sourceTree = "<group>"; };
+		BF3C5C271130B19000DAA5BA /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		BF3C5C281130B19000DAA5BA /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		BF3C5C7C1130B24800DAA5BA /* Arisilon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arisilon.png; sourceTree = "<group>"; };
+		BF3C5C7D1130B24800DAA5BA /* bazaar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bazaar.jpg; sourceTree = "<group>"; };
+		BF3C5C7E1130B24800DAA5BA /* bazaar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bazaar.png; sourceTree = "<group>"; };
+		BF3C5C7F1130B24800DAA5BA /* beast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beast.jpg; sourceTree = "<group>"; };
+		BF3C5C801130B24800DAA5BA /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = "<group>"; };
+		BF3C5C811130B24800DAA5BA /* board.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = board.gif; sourceTree = "<group>"; };
+		BF3C5C821130B24800DAA5BA /* brasskey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brasskey.jpg; sourceTree = "<group>"; };
+		BF3C5C831130B24800DAA5BA /* brigands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brigands.jpg; sourceTree = "<group>"; };
+		BF3C5C841130B24800DAA5BA /* Brynthia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brynthia.png; sourceTree = "<group>"; };
+		BF3C5C851130B24800DAA5BA /* cursed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cursed.jpg; sourceTree = "<group>"; };
+		BF3C5C861130B24800DAA5BA /* darktower.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = darktower.gif; sourceTree = "<group>"; };
+		BF3C5C871130B24800DAA5BA /* dg_classm32.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dg_classm32.gif; sourceTree = "<group>"; };
+		BF3C5C881130B24800DAA5BA /* dg_dragon32.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dg_dragon32.gif; sourceTree = "<group>"; };
+		BF3C5C891130B24800DAA5BA /* dg_iso32.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dg_iso32.gif; sourceTree = "<group>"; };
+		BF3C5C8A1130B24800DAA5BA /* dragon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dragon.jpg; sourceTree = "<group>"; };
+		BF3C5C8B1130B24800DAA5BA /* Durnin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Durnin.png; sourceTree = "<group>"; };
+		BF3C5C8C1130B24800DAA5BA /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
+		BF3C5C8D1130B24800DAA5BA /* gold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gold.jpg; sourceTree = "<group>"; };
+		BF3C5C8E1130B24800DAA5BA /* goldkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldkey.jpg; sourceTree = "<group>"; };
+		BF3C5C8F1130B24800DAA5BA /* healer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = healer.jpg; sourceTree = "<group>"; };
+		BF3C5C901130B24800DAA5BA /* keymissing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = keymissing.jpg; sourceTree = "<group>"; };
+		BF3C5C911130B24800DAA5BA /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo.gif; sourceTree = "<group>"; };
+		BF3C5C921130B24800DAA5BA /* lost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lost.jpg; sourceTree = "<group>"; };
+		BF3C5C931130B24800DAA5BA /* pegasus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pegasus.jpg; sourceTree = "<group>"; };
+		BF3C5C941130B24800DAA5BA /* plague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plague.jpg; sourceTree = "<group>"; };
+		BF3C5C951130B24800DAA5BA /* ruin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruin.png; sourceTree = "<group>"; };
+		BF3C5C961130B24800DAA5BA /* sanctuary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sanctuary.png; sourceTree = "<group>"; };
+		BF3C5C971130B24800DAA5BA /* scout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scout.jpg; sourceTree = "<group>"; };
+		BF3C5C981130B24800DAA5BA /* silverkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silverkey.jpg; sourceTree = "<group>"; };
+		BF3C5C991130B24800DAA5BA /* sword.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sword.jpg; sourceTree = "<group>"; };
+		BF3C5C9A1130B24800DAA5BA /* tomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tomb.png; sourceTree = "<group>"; };
+		BF3C5C9B1130B24800DAA5BA /* victory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = victory.jpg; sourceTree = "<group>"; };
+		BF3C5C9C1130B24800DAA5BA /* warrior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = warrior.jpg; sourceTree = "<group>"; };
+		BF3C5C9D1130B24800DAA5BA /* warriors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = warriors.jpg; sourceTree = "<group>"; };
+		BF3C5C9E1130B24800DAA5BA /* wizard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wizard.jpg; sourceTree = "<group>"; };
+		BF3C5C9F1130B24800DAA5BA /* Zenon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zenon.png; sourceTree = "<group>"; };
+		BF3C5CA31130B24800DAA5BA /* battle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = battle.wav; sourceTree = "<group>"; };
+		BF3C5CA41130B24800DAA5BA /* bazaar-closed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bazaar-closed.wav"; sourceTree = "<group>"; };
+		BF3C5CA51130B24800DAA5BA /* bazaar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bazaar.wav; sourceTree = "<group>"; };
+		BF3C5CA61130B24800DAA5BA /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		BF3C5CA71130B24800DAA5BA /* clear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clear.wav; sourceTree = "<group>"; };
+		BF3C5CA81130B24800DAA5BA /* darktower.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = darktower.wav; sourceTree = "<group>"; };
+		BF3C5CA91130B24800DAA5BA /* dragon-kill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "dragon-kill.wav"; sourceTree = "<group>"; };
+		BF3C5CAA1130B24800DAA5BA /* dragon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dragon.wav; sourceTree = "<group>"; };
+		BF3C5CAB1130B24800DAA5BA /* end-turn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "end-turn.wav"; sourceTree = "<group>"; };
+		BF3C5CAC1130B24800DAA5BA /* enemy-hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "enemy-hit.wav"; sourceTree = "<group>"; };
+		BF3C5CAD1130B24800DAA5BA /* frontier.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = frontier.wav; sourceTree = "<group>"; };
+		BF3C5CAE1130B24800DAA5BA /* intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = intro.wav; sourceTree = "<group>"; };
+		BF3C5CAF1130B24800DAA5BA /* lost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lost.wav; sourceTree = "<group>"; };
+		BF3C5CB01130B24900DAA5BA /* pegasus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pegasus.wav; sourceTree = "<group>"; };
+		BF3C5CB11130B24900DAA5BA /* plague.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = plague.wav; sourceTree = "<group>"; };
+		BF3C5CB21130B24900DAA5BA /* player-hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "player-hit.wav"; sourceTree = "<group>"; };
+		BF3C5CB31130B24900DAA5BA /* rotate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rotate.wav; sourceTree = "<group>"; };
+		BF3C5CB41130B24900DAA5BA /* sanctuary.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sanctuary.wav; sourceTree = "<group>"; };
+		BF3C5CB51130B24900DAA5BA /* starving.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = starving.wav; sourceTree = "<group>"; };
+		BF3C5CB61130B24900DAA5BA /* tomb-battle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tomb-battle.wav"; sourceTree = "<group>"; };
+		BF3C5CB71130B24900DAA5BA /* tomb-nothing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tomb-nothing.wav"; sourceTree = "<group>"; };
+		BF3C5CB81130B24900DAA5BA /* tomb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tomb.wav; sourceTree = "<group>"; };
+		BF3C5CB91130B24900DAA5BA /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrong.wav; sourceTree = "<group>"; };
+		BF3C5D041130B2B900DAA5BA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BF3C5D061130B2B900DAA5BA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BF3C5D1A1130BAB700DAA5BA /* dtbutton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dtbutton.gif; sourceTree = "<group>"; };
+		BF3C5D1B1130BAB700DAA5BA /* dtlogo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dtlogo1.jpg; sourceTree = "<group>"; };
+		BF3C5D1C1130BAB700DAA5BA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		BF579BA41130FADC00A7C7A3 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		BF579BA51130FADC00A7C7A3 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		BF76049E1A9C1DFE00896D26 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF8A997911323C130005119D /* BattleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleViewController.h; sourceTree = "<group>"; };
+		BF8A997A11323C130005119D /* BattleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleViewController.m; sourceTree = "<group>"; };
+		BFA14D4C1131B90D0043BC0C /* BazaarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BazaarViewController.h; sourceTree = "<group>"; };
+		BFA14D4D1131B90D0043BC0C /* BazaarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BazaarViewController.m; sourceTree = "<group>"; };
+		BFA14D4E1131B90D0043BC0C /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		BFA14D4F1131B90D0043BC0C /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		BFA14D541131B93B0043BC0C /* BazaarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BazaarViewController.xib; path = Classes/BazaarViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				BF3C5D051130B2B900DAA5BA /* AudioToolbox.framework in Frameworks */,
+				BF3C5D071130B2B900DAA5BA /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BFA14D4C1131B90D0043BC0C /* BazaarViewController.h */,
+				BFA14D4D1131B90D0043BC0C /* BazaarViewController.m */,
+				BFA14D4E1131B90D0043BC0C /* SetupViewController.h */,
+				BFA14D4F1131B90D0043BC0C /* SetupViewController.m */,
+				BF579BA41130FADC00A7C7A3 /* MainMenuViewController.h */,
+				BF579BA51130FADC00A7C7A3 /* MainMenuViewController.m */,
+				BF3C5C211130B19000DAA5BA /* DarkTower.h */,
+				BF3C5C221130B19000DAA5BA /* DarkTower.m */,
+				BF3C5C231130B19000DAA5BA /* Player.h */,
+				BF3C5C241130B19000DAA5BA /* Player.m */,
+				BF3C5C251130B19000DAA5BA /* Random.h */,
+				BF3C5C261130B19000DAA5BA /* Random.m */,
+				BF3C5C271130B19000DAA5BA /* SoundManager.h */,
+				BF3C5C281130B19000DAA5BA /* SoundManager.m */,
+				28D7ACF60DDB3853001CB0EB /* Dark_TowerViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* Dark_TowerViewController.m */,
+				BF8A997911323C130005119D /* BattleViewController.h */,
+				BF8A997A11323C130005119D /* BattleViewController.m */,
+				BF27B1D11134C615006F7227 /* TowerStatusController.h */,
+				BF27B1D21134C615006F7227 /* TowerStatusController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Dark Tower.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				BF76049E1A9C1DFE00896D26 /* Default-568h@2x.png */,
+				BF3C5C7B1130B24800DAA5BA /* Graphics */,
+				BF3C5CA21130B24800DAA5BA /* Sound */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Dark_Tower_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF27B1D61134C638006F7227 /* TowerStatusController.xib */,
+				BFA14D541131B93B0043BC0C /* BazaarViewController.xib */,
+				BF27B1C31134C464006F7227 /* BattleViewController.xib */,
+				BF27B1C41134C464006F7227 /* Dark_TowerViewController.xib */,
+				BF27B1C51134C464006F7227 /* MainMenuViewController.xib */,
+				BF27B1C61134C464006F7227 /* SetupViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Dark_Tower-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				BF3C5D041130B2B900DAA5BA /* AudioToolbox.framework */,
+				BF3C5D061130B2B900DAA5BA /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF3C5C7B1130B24800DAA5BA /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				BF3C5D1A1130BAB700DAA5BA /* dtbutton.gif */,
+				BF3C5D1B1130BAB700DAA5BA /* dtlogo1.jpg */,
+				BF3C5D1C1130BAB700DAA5BA /* icon.png */,
+				BF3C5C7C1130B24800DAA5BA /* Arisilon.png */,
+				BF3C5C7D1130B24800DAA5BA /* bazaar.jpg */,
+				BF3C5C7E1130B24800DAA5BA /* bazaar.png */,
+				BF3C5C7F1130B24800DAA5BA /* beast.jpg */,
+				BF3C5C801130B24800DAA5BA /* black.jpg */,
+				BF3C5C811130B24800DAA5BA /* board.gif */,
+				BF3C5C821130B24800DAA5BA /* brasskey.jpg */,
+				BF3C5C831130B24800DAA5BA /* brigands.jpg */,
+				BF3C5C841130B24800DAA5BA /* Brynthia.png */,
+				BF3C5C851130B24800DAA5BA /* cursed.jpg */,
+				BF3C5C861130B24800DAA5BA /* darktower.gif */,
+				BF3C5C871130B24800DAA5BA /* dg_classm32.gif */,
+				BF3C5C881130B24800DAA5BA /* dg_dragon32.gif */,
+				BF3C5C891130B24800DAA5BA /* dg_iso32.gif */,
+				BF3C5C8A1130B24800DAA5BA /* dragon.jpg */,
+				BF3C5C8B1130B24800DAA5BA /* Durnin.png */,
+				BF3C5C8C1130B24800DAA5BA /* food.jpg */,
+				BF3C5C8D1130B24800DAA5BA /* gold.jpg */,
+				BF3C5C8E1130B24800DAA5BA /* goldkey.jpg */,
+				BF3C5C8F1130B24800DAA5BA /* healer.jpg */,
+				BF3C5C901130B24800DAA5BA /* keymissing.jpg */,
+				BF3C5C911130B24800DAA5BA /* logo.gif */,
+				BF3C5C921130B24800DAA5BA /* lost.jpg */,
+				BF3C5C931130B24800DAA5BA /* pegasus.jpg */,
+				BF3C5C941130B24800DAA5BA /* plague.jpg */,
+				BF3C5C951130B24800DAA5BA /* ruin.png */,
+				BF3C5C961130B24800DAA5BA /* sanctuary.png */,
+				BF3C5C971130B24800DAA5BA /* scout.jpg */,
+				BF3C5C981130B24800DAA5BA /* silverkey.jpg */,
+				BF3C5C991130B24800DAA5BA /* sword.jpg */,
+				BF3C5C9A1130B24800DAA5BA /* tomb.png */,
+				BF3C5C9B1130B24800DAA5BA /* victory.jpg */,
+				BF3C5C9C1130B24800DAA5BA /* warrior.jpg */,
+				BF3C5C9D1130B24800DAA5BA /* warriors.jpg */,
+				BF3C5C9E1130B24800DAA5BA /* wizard.jpg */,
+				BF3C5C9F1130B24800DAA5BA /* Zenon.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		BF3C5CA21130B24800DAA5BA /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				BF3C5CA31130B24800DAA5BA /* battle.wav */,
+				BF3C5CA41130B24800DAA5BA /* bazaar-closed.wav */,
+				BF3C5CA51130B24800DAA5BA /* bazaar.wav */,
+				BF3C5CA61130B24800DAA5BA /* beep.wav */,
+				BF3C5CA71130B24800DAA5BA /* clear.wav */,
+				BF3C5CA81130B24800DAA5BA /* darktower.wav */,
+				BF3C5CA91130B24800DAA5BA /* dragon-kill.wav */,
+				BF3C5CAA1130B24800DAA5BA /* dragon.wav */,
+				BF3C5CAB1130B24800DAA5BA /* end-turn.wav */,
+				BF3C5CAC1130B24800DAA5BA /* enemy-hit.wav */,
+				BF3C5CAD1130B24800DAA5BA /* frontier.wav */,
+				BF3C5CAE1130B24800DAA5BA /* intro.wav */,
+				BF3C5CAF1130B24800DAA5BA /* lost.wav */,
+				BF3C5CB01130B24900DAA5BA /* pegasus.wav */,
+				BF3C5CB11130B24900DAA5BA /* plague.wav */,
+				BF3C5CB21130B24900DAA5BA /* player-hit.wav */,
+				BF3C5CB31130B24900DAA5BA /* rotate.wav */,
+				BF3C5CB41130B24900DAA5BA /* sanctuary.wav */,
+				BF3C5CB51130B24900DAA5BA /* starving.wav */,
+				BF3C5CB61130B24900DAA5BA /* tomb-battle.wav */,
+				BF3C5CB71130B24900DAA5BA /* tomb-nothing.wav */,
+				BF3C5CB81130B24900DAA5BA /* tomb.wav */,
+				BF3C5CB91130B24900DAA5BA /* wrong.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Dark Tower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Dark Tower" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dark Tower";
+			productName = "Dark Tower";
+			productReference = 1D6058910D05DD3D006BFB54 /* Dark Tower.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Dark Tower" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Dark Tower */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				BF3C5CBA1130B24900DAA5BA /* Arisilon.png in Resources */,
+				BF3C5CBB1130B24900DAA5BA /* bazaar.jpg in Resources */,
+				BF3C5CBC1130B24900DAA5BA /* bazaar.png in Resources */,
+				BF3C5CBD1130B24900DAA5BA /* beast.jpg in Resources */,
+				BF3C5CBE1130B24900DAA5BA /* black.jpg in Resources */,
+				BF3C5CBF1130B24900DAA5BA /* board.gif in Resources */,
+				BF3C5CC01130B24900DAA5BA /* brasskey.jpg in Resources */,
+				BF3C5CC11130B24900DAA5BA /* brigands.jpg in Resources */,
+				BF3C5CC21130B24900DAA5BA /* Brynthia.png in Resources */,
+				BF3C5CC31130B24900DAA5BA /* cursed.jpg in Resources */,
+				BF3C5CC41130B24900DAA5BA /* darktower.gif in Resources */,
+				BF3C5CC51130B24900DAA5BA /* dg_classm32.gif in Resources */,
+				BF3C5CC61130B24900DAA5BA /* dg_dragon32.gif in Resources */,
+				BF3C5CC71130B24900DAA5BA /* dg_iso32.gif in Resources */,
+				BF3C5CC81130B24900DAA5BA /* dragon.jpg in Resources */,
+				BF3C5CC91130B24900DAA5BA /* Durnin.png in Resources */,
+				BF3C5CCA1130B24900DAA5BA /* food.jpg in Resources */,
+				BF3C5CCB1130B24900DAA5BA /* gold.jpg in Resources */,
+				BF3C5CCC1130B24900DAA5BA /* goldkey.jpg in Resources */,
+				BF3C5CCD1130B24900DAA5BA /* healer.jpg in Resources */,
+				BF3C5CCE1130B24900DAA5BA /* keymissing.jpg in Resources */,
+				BF3C5CCF1130B24900DAA5BA /* logo.gif in Resources */,
+				BF3C5CD01130B24900DAA5BA /* lost.jpg in Resources */,
+				BF3C5CD11130B24900DAA5BA /* pegasus.jpg in Resources */,
+				BF3C5CD21130B24900DAA5BA /* plague.jpg in Resources */,
+				BF3C5CD31130B24900DAA5BA /* ruin.png in Resources */,
+				BF3C5CD41130B24900DAA5BA /* sanctuary.png in Resources */,
+				BF3C5CD51130B24900DAA5BA /* scout.jpg in Resources */,
+				BF3C5CD61130B24900DAA5BA /* silverkey.jpg in Resources */,
+				BF3C5CD71130B24900DAA5BA /* sword.jpg in Resources */,
+				BF3C5CD81130B24900DAA5BA /* tomb.png in Resources */,
+				BF3C5CD91130B24900DAA5BA /* victory.jpg in Resources */,
+				BF76049F1A9C1DFE00896D26 /* Default-568h@2x.png in Resources */,
+				BF3C5CDA1130B24900DAA5BA /* warrior.jpg in Resources */,
+				BF3C5CDB1130B24900DAA5BA /* warriors.jpg in Resources */,
+				BF3C5CDC1130B24900DAA5BA /* wizard.jpg in Resources */,
+				BF3C5CDD1130B24900DAA5BA /* Zenon.png in Resources */,
+				BF3C5CDF1130B24900DAA5BA /* battle.wav in Resources */,
+				BF3C5CE01130B24900DAA5BA /* bazaar-closed.wav in Resources */,
+				BF3C5CE11130B24900DAA5BA /* bazaar.wav in Resources */,
+				BF3C5CE21130B24900DAA5BA /* beep.wav in Resources */,
+				BF3C5CE31130B24900DAA5BA /* clear.wav in Resources */,
+				BF3C5CE41130B24900DAA5BA /* darktower.wav in Resources */,
+				BF3C5CE51130B24900DAA5BA /* dragon-kill.wav in Resources */,
+				BF3C5CE61130B24900DAA5BA /* dragon.wav in Resources */,
+				BF3C5CE71130B24900DAA5BA /* end-turn.wav in Resources */,
+				BF3C5CE81130B24900DAA5BA /* enemy-hit.wav in Resources */,
+				BF3C5CE91130B24900DAA5BA /* frontier.wav in Resources */,
+				BF3C5CEA1130B24900DAA5BA /* intro.wav in Resources */,
+				BF3C5CEB1130B24900DAA5BA /* lost.wav in Resources */,
+				BF3C5CEC1130B24900DAA5BA /* pegasus.wav in Resources */,
+				BF3C5CED1130B24900DAA5BA /* plague.wav in Resources */,
+				BF3C5CEE1130B24900DAA5BA /* player-hit.wav in Resources */,
+				BF3C5CEF1130B24900DAA5BA /* rotate.wav in Resources */,
+				BF3C5CF01130B24900DAA5BA /* sanctuary.wav in Resources */,
+				BF3C5CF11130B24900DAA5BA /* starving.wav in Resources */,
+				BF3C5CF21130B24900DAA5BA /* tomb-battle.wav in Resources */,
+				BF3C5CF31130B24900DAA5BA /* tomb-nothing.wav in Resources */,
+				BF3C5CF41130B24900DAA5BA /* tomb.wav in Resources */,
+				BF3C5CF51130B24900DAA5BA /* wrong.wav in Resources */,
+				BF3C5D1D1130BAB700DAA5BA /* dtbutton.gif in Resources */,
+				BF3C5D1E1130BAB700DAA5BA /* dtlogo1.jpg in Resources */,
+				BF3C5D1F1130BAB700DAA5BA /* icon.png in Resources */,
+				BFA14D551131B93B0043BC0C /* BazaarViewController.xib in Resources */,
+				BF27B1C71134C464006F7227 /* BattleViewController.xib in Resources */,
+				BF27B1C81134C464006F7227 /* Dark_TowerViewController.xib in Resources */,
+				BF27B1C91134C464006F7227 /* MainMenuViewController.xib in Resources */,
+				BF27B1CA1134C464006F7227 /* SetupViewController.xib in Resources */,
+				BF27B1D71134C638006F7227 /* TowerStatusController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* Dark_TowerViewController.m in Sources */,
+				BF3C5C2B1130B19000DAA5BA /* DarkTower.m in Sources */,
+				BF3C5C2C1130B19000DAA5BA /* Player.m in Sources */,
+				BF3C5C2D1130B19000DAA5BA /* Random.m in Sources */,
+				BF3C5C2E1130B19000DAA5BA /* SoundManager.m in Sources */,
+				BF579BA61130FADC00A7C7A3 /* MainMenuViewController.m in Sources */,
+				BFA14D501131B90D0043BC0C /* BazaarViewController.m in Sources */,
+				BFA14D511131B90D0043BC0C /* SetupViewController.m in Sources */,
+				BF8A997B11323C130005119D /* BattleViewController.m in Sources */,
+				BF27B1D31134C615006F7227 /* TowerStatusController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Dark_Tower_Prefix.pch;
+				INFOPLIST_FILE = "Dark_Tower-Info.plist";
+				PRODUCT_NAME = "Dark Tower";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Dark_Tower_Prefix.pch;
+				INFOPLIST_FILE = "Dark_Tower-Info.plist";
+				PRODUCT_NAME = "Dark Tower";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Dark Tower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Dark Tower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

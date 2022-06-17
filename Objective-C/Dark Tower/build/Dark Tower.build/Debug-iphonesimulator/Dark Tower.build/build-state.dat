@@ -1,0 +1,1982 @@
+TDark Tower
+v7
+r0
+t322798775.825804
+cCheck dependencies
+cProcessInfoPlistFile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Info.plist" Dark_Tower-Info.plist
+cCompileXIB "/Users/louis/Projects/Dark Tower/MainWindow.xib"
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/Arisilon.png" Graphics/Arisilon.png
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/bazaar.jpg" Graphics/bazaar.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/bazaar.png" Graphics/bazaar.png
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/beast.jpg" Graphics/beast.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/black.jpg" Graphics/black.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/board.gif" Graphics/board.gif
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/brasskey.jpg" Graphics/brasskey.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/brigands.jpg" Graphics/brigands.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/Brynthia.png" Graphics/Brynthia.png
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/cursed.jpg" Graphics/cursed.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/darktower.gif" Graphics/darktower.gif
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/dg_classm32.gif" Graphics/dg_classm32.gif
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/dg_dragon32.gif" Graphics/dg_dragon32.gif
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/dg_iso32.gif" Graphics/dg_iso32.gif
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/dragon.jpg" Graphics/dragon.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/Durnin.png" Graphics/Durnin.png
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/food.jpg" Graphics/food.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/gold.jpg" Graphics/gold.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/goldkey.jpg" Graphics/goldkey.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/healer.jpg" Graphics/healer.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/keymissing.jpg" Graphics/keymissing.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/logo.gif" Graphics/logo.gif
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/lost.jpg" Graphics/lost.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/pegasus.jpg" Graphics/pegasus.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/plague.jpg" Graphics/plague.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/ruin.png" Graphics/ruin.png
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/sanctuary.png" Graphics/sanctuary.png
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/scout.jpg" Graphics/scout.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/silverkey.jpg" Graphics/silverkey.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/sword.jpg" Graphics/sword.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/tomb.png" Graphics/tomb.png
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/victory.jpg" Graphics/victory.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/warrior.jpg" Graphics/warrior.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/warriors.jpg" Graphics/warriors.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/wizard.jpg" Graphics/wizard.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/Zenon.png" Graphics/Zenon.png
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/battle.wav" Sound/battle.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/bazaar-closed.wav" Sound/bazaar-closed.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/bazaar.wav" Sound/bazaar.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/beep.wav" Sound/beep.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/clear.wav" Sound/clear.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/darktower.wav" Sound/darktower.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/dragon-kill.wav" Sound/dragon-kill.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/dragon.wav" Sound/dragon.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/end-turn.wav" Sound/end-turn.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/enemy-hit.wav" Sound/enemy-hit.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/frontier.wav" Sound/frontier.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/intro.wav" Sound/intro.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/lost.wav" Sound/lost.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/pegasus.wav" Sound/pegasus.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/plague.wav" Sound/plague.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/player-hit.wav" Sound/player-hit.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/rotate.wav" Sound/rotate.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/sanctuary.wav" Sound/sanctuary.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/starving.wav" Sound/starving.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/tomb-battle.wav" Sound/tomb-battle.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/tomb-nothing.wav" Sound/tomb-nothing.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/tomb.wav" Sound/tomb.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/wrong.wav" Sound/wrong.wav
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/dtbutton.gif" Graphics/dtbutton.gif
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/dtlogo1.jpg" Graphics/dtlogo1.jpg
+cCpResource "build/Debug-iphonesimulator/Dark Tower.app/icon.png" Graphics/icon.png
+cCompileXIB "/Users/louis/Projects/Dark Tower/Classes/BazaarViewController.xib"
+cCompileXIB "/Users/louis/Projects/Dark Tower/Classes/BattleViewController.xib"
+cCompileXIB "/Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.xib"
+cCompileXIB "/Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.xib"
+cCompileXIB "/Users/louis/Projects/Dark Tower/Classes/SetupViewController.xib"
+cCompileXIB "/Users/louis/Projects/Dark Tower/Classes/TowerStatusController.xib"
+cProcessPCH /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch.gch Dark_Tower_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/main.o" "/Users/louis/Projects/Dark Tower/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Dark_TowerViewController.o" "/Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Player.o" "/Users/louis/Projects/Dark Tower/Classes/Player.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Random.o" "/Users/louis/Projects/Dark Tower/Classes/Random.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/SoundManager.o" "/Users/louis/Projects/Dark Tower/Classes/SoundManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/DarkTower.o" "/Users/louis/Projects/Dark Tower/Classes/DarkTower.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/MainMenuViewController.o" "/Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/BazaarViewController.o" "/Users/louis/Projects/Dark Tower/Classes/BazaarViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/SetupViewController.o" "/Users/louis/Projects/Dark Tower/Classes/SetupViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/BattleViewController.o" "/Users/louis/Projects/Dark Tower/Classes/BattleViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/TowerStatusController.o" "/Users/louis/Projects/Dark Tower/Classes/TowerStatusController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark Tower" normal i386
+cGenerateDSYMFile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app.dSYM" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark Tower"
+cTouch "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B78A84A00000000000000EE
+t1266198602
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004B2B4D460000000000193960
+t1261129030
+s1653088
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004B2B4D2F0000000000000A22
+t1261129007
+s2594
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
+c000000004B2B649D000000000000022F
+t1261135005
+s559
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004B2B64D200000000000CB600
+t1261135058
+s833024
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/stdlib.h
+c000000004748A1330000000000002A79
+t1195942195
+s10873
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/time.h
+c000000004748A133000000000000178E
+t1195942195
+s6030
+
+N/Users/louis/Projects/Dark Tower/BattleViewController.xib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/louis/Projects/Dark Tower/Classes/BattleViewController.h
+c000000004B83D51C00000000000003C3
+t1266930972
+s963
+i<UIKit/UIKit.h>
+
+N/Users/louis/Projects/Dark Tower/Classes/BattleViewController.m
+c000000004B93050D00000000000014D0
+t1267926285
+s5328
+i"BattleViewController.h"
+i"DarkTower.h"
+i"Player.h"
+i"Random.h"
+i"SoundManager.h"
+
+N/Users/louis/Projects/Dark Tower/Classes/BattleViewController.xib
+c000000004B83D5770000000000006334
+t1266931063
+s25396
+
+N/Users/louis/Projects/Dark Tower/Classes/BazaarViewController.h
+c000000004B81B49F000000000000062E
+t1266791583
+s1582
+i<UIKit/UIKit.h>
+
+N/Users/louis/Projects/Dark Tower/Classes/BazaarViewController.m
+c000000004B84995F000000000000175A
+t1266981215
+s5978
+i"BazaarViewController.h"
+i"DarkTower.h"
+i"SoundManager.h"
+i"Random.h"
+
+N/Users/louis/Projects/Dark Tower/Classes/BazaarViewController.xib
+c000000004B81AF1D0000000000011D98
+t1266790173
+s73112
+
+N/Users/louis/Projects/Dark Tower/Classes/DarkTower.h
+c000000004D8D4D350000000000000918
+t1301105973
+s2328
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Player.h"
+
+N/Users/louis/Projects/Dark Tower/Classes/DarkTower.m
+c000000004B930DF80000000000002785
+t1267928568
+s10117
+i"DarkTower.h"
+i"SoundManager.h"
+i"Random.h"
+i"Dark_TowerViewController.h"
+i"MainMenuViewController.h"
+i"BazaarViewController.h"
+i"SetupViewController.h"
+i"BattleViewController.h"
+i"TowerStatusController.h"
+
+N/Users/louis/Projects/Dark Tower/Classes/Dark_TowerAppDelegate.h
+c000000004B833C17000000000000052B
+t1266891799
+s1323
+i<UIKit/UIKit.h>
+
+N/Users/louis/Projects/Dark Tower/Classes/Dark_TowerAppDelegate.m
+c000000004B8341880000000000000775
+t1266893192
+s1909
+i"Dark_TowerAppDelegate.h"
+i"Dark_TowerViewController.h"
+i"MainMenuViewController.h"
+i"BazaarViewController.h"
+i"SetupViewController.h"
+i"BattleViewController.h"
+i"DarkTower.h"
+i"Player.h"
+
+N/Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.h
+c000000004B8188E5000000000000011A
+t1266780389
+s282
+i<UIKit/UIKit.h>
+
+N/Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.m
+c000000004B818AE00000000000000645
+t1266780896
+s1605
+i"Dark_TowerViewController.h"
+i"DarkTower.h"
+
+N/Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.xib
+c000000004B81855C0000000000006002
+t1266779484
+s24578
+
+N/Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.h
+c000000004B819B260000000000000283
+t1266785062
+s643
+i<UIKit/UIKit.h>
+
+N/Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.m
+c000000004B819E0000000000000008FB
+t1266785792
+s2299
+i"MainMenuViewController.h"
+i"DarkTower.h"
+
+N/Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.xib
+c000000004B819CEF0000000000009255
+t1266785519
+s37461
+
+N/Users/louis/Projects/Dark Tower/Classes/Player.h
+c000000004B92FF5F00000000000003E2
+t1267924831
+s994
+i<Foundation/Foundation.h>
+
+N/Users/louis/Projects/Dark Tower/Classes/Player.m
+c000000004B92FFB50000000000000911
+t1267924917
+s2321
+i"Player.h"
+i"SoundManager.h"
+
+N/Users/louis/Projects/Dark Tower/Classes/Random.h
+c000000004B7F133D000000000000011B
+t1266619197
+s283
+i<Foundation/Foundation.h>
+
+N/Users/louis/Projects/Dark Tower/Classes/Random.m
+c000000004B81B1EE000000000000025F
+t1266790894
+s607
+i"Random.h"
+i<stdlib.h>
+i<time.h>
+
+N/Users/louis/Projects/Dark Tower/Classes/SetupViewController.h
+c000000004B818EF10000000000000169
+t1266781937
+s361
+i<UIKit/UIKit.h>
+
+N/Users/louis/Projects/Dark Tower/Classes/SetupViewController.m
+c000000004B8195240000000000000671
+t1266783524
+s1649
+i"SetupViewController.h"
+i"DarkTower.h"
+
+N/Users/louis/Projects/Dark Tower/Classes/SetupViewController.xib
+c000000004B81944500000000000076F4
+t1266783301
+s30452
+
+N/Users/louis/Projects/Dark Tower/Classes/SoundManager.h
+c000000004B7F6F470000000000000194
+t1266642759
+s404
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+i<MediaPlayer/MediaPlayer.h>
+
+N/Users/louis/Projects/Dark Tower/Classes/SoundManager.m
+c000000004B92AA200000000000000434
+t1267903008
+s1076
+i"SoundManager.h"
+
+N/Users/louis/Projects/Dark Tower/Classes/TowerStatusController.h
+c000000004B930B9600000000000006B3
+t1267927958
+s1715
+i<UIKit/UIKit.h>
+
+N/Users/louis/Projects/Dark Tower/Classes/TowerStatusController.m
+c000000004B930B7F00000000000022E0
+t1267927935
+s8928
+i"TowerStatusController.h"
+i"DarkTower.h"
+i"Random.h"
+i"SoundManager.h"
+
+N/Users/louis/Projects/Dark Tower/Classes/TowerStatusController.xib
+c000000004B92BA5D000000000000A0E8
+t1267907165
+s41192
+
+N/Users/louis/Projects/Dark Tower/Classes/towerController.h
+c000000004B81DB1B00000000000002F7
+t1266801435
+s759
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/louis/Projects/Dark Tower/Classes/towerController.m
+c000000004B81DAE100000000000005BA
+t1266801377
+s1466
+i"towerController.h"
+i"DarkTower.h"
+
+N/Users/louis/Projects/Dark Tower/Dark_TowerViewController.xib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/louis/Projects/Dark Tower/Dark_Tower_Prefix.pch
+c000000004B80796500000000000000BD
+t1266710885
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/louis/Projects/Dark Tower/Graphics
+c000000004B806F90000000000000050C
+t1266708368
+s1292
+
+N/Users/louis/Projects/Dark Tower/Graphics/Arisilon.png
+c000000004B806EA90000000000013D7C
+t1266708137
+s81276
+
+N/Users/louis/Projects/Dark Tower/Graphics/Brynthia.png
+c000000004B806EF70000000000015140
+t1266708215
+s86336
+
+N/Users/louis/Projects/Dark Tower/Graphics/Durnin.png
+c000000004B806F4D000000000001442C
+t1266708301
+s82988
+
+N/Users/louis/Projects/Dark Tower/Graphics/Zenon.png
+c000000004B806F7B0000000000014DDD
+t1266708347
+s85469
+
+N/Users/louis/Projects/Dark Tower/Graphics/bazaar.jpg
+c000000003C5DAE940000000000003A0F
+t1012772500
+s14863
+
+N/Users/louis/Projects/Dark Tower/Graphics/bazaar.png
+c000000004B806C7F0000000000018353
+t1266707583
+s99155
+
+N/Users/louis/Projects/Dark Tower/Graphics/beast.jpg
+c000000003C5DB6C60000000000002CF1
+t1012774598
+s11505
+
+N/Users/louis/Projects/Dark Tower/Graphics/black.jpg
+c000000003C5DB68400000000000003D5
+t1012774532
+s981
+
+N/Users/louis/Projects/Dark Tower/Graphics/board.gif
+c000000003C57582E000000000000036D
+t1012357166
+s877
+
+N/Users/louis/Projects/Dark Tower/Graphics/brasskey.jpg
+c000000003C5DAF200000000000002EA2
+t1012772640
+s11938
+
+N/Users/louis/Projects/Dark Tower/Graphics/brigands.jpg
+c000000003C5DB3C00000000000004126
+t1012773824
+s16678
+
+N/Users/louis/Projects/Dark Tower/Graphics/cursed.jpg
+c000000003C5DB87A000000000000340F
+t1012775034
+s13327
+
+N/Users/louis/Projects/Dark Tower/Graphics/darktower.gif
+c000000003C5363E20000000000000377
+t1012098018
+s887
+
+N/Users/louis/Projects/Dark Tower/Graphics/dg_classm32.gif
+c000000003D9668A0000000000000711C
+t1033267360
+s28956
+
+N/Users/louis/Projects/Dark Tower/Graphics/dg_dragon32.gif
+c000000003C77E9BA00000000000051EA
+t1014491578
+s20970
+
+N/Users/louis/Projects/Dark Tower/Graphics/dg_iso32.gif
+c000000003CD4CAFA00000000000182C5
+t1020578554
+s99013
+
+N/Users/louis/Projects/Dark Tower/Graphics/dragon.jpg
+c000000003C5DB40C0000000000003A67
+t1012773900
+s14951
+
+N/Users/louis/Projects/Dark Tower/Graphics/dtbutton.gif
+c000000004B7DECA10000000000001005
+t1266543777
+s4101
+
+N/Users/louis/Projects/Dark Tower/Graphics/dtlogo1.jpg
+c000000004B7B3F6F0000000000005FF6
+t1266368367
+s24566
+
+N/Users/louis/Projects/Dark Tower/Graphics/food.jpg
+c000000003C5DB6FE0000000000002C5D
+t1012774654
+s11357
+
+N/Users/louis/Projects/Dark Tower/Graphics/gold.jpg
+c000000003C5DB4380000000000003A64
+t1012773944
+s14948
+
+N/Users/louis/Projects/Dark Tower/Graphics/goldkey.jpg
+c000000003C5DB6EE0000000000003913
+t1012774638
+s14611
+
+N/Users/louis/Projects/Dark Tower/Graphics/healer.jpg
+c000000003C5DB6B60000000000002FAF
+t1012774582
+s12207
+
+N/Users/louis/Projects/Dark Tower/Graphics/icon.png
+c000000004B849CB50000000000001901
+t1266982069
+s6401
+
+N/Users/louis/Projects/Dark Tower/Graphics/keymissing.jpg
+c000000003C5DB4AA00000000000049B0
+t1012774058
+s18864
+
+N/Users/louis/Projects/Dark Tower/Graphics/logo.gif
+c000000003D94F210000000000000CB82
+t1033171472
+s52098
+
+N/Users/louis/Projects/Dark Tower/Graphics/lost.jpg
+c000000003C5DB1FE0000000000003F19
+t1012773374
+s16153
+
+N/Users/louis/Projects/Dark Tower/Graphics/pegasus.jpg
+c000000003C5DB69C0000000000004225
+t1012774556
+s16933
+
+N/Users/louis/Projects/Dark Tower/Graphics/plague.jpg
+c000000003C5DAD8C0000000000002FDD
+t1012772236
+s12253
+
+N/Users/louis/Projects/Dark Tower/Graphics/ruin.png
+c000000004B806C13000000000001A43B
+t1266707475
+s107579
+
+N/Users/louis/Projects/Dark Tower/Graphics/sanctuary.png
+c000000004B806CC60000000000015050
+t1266707654
+s86096
+
+N/Users/louis/Projects/Dark Tower/Graphics/scout.jpg
+c000000003C5DB37E0000000000003972
+t1012773758
+s14706
+
+N/Users/louis/Projects/Dark Tower/Graphics/silverkey.jpg
+c000000003C5DB07A0000000000002EF8
+t1012772986
+s12024
+
+N/Users/louis/Projects/Dark Tower/Graphics/sword.jpg
+c000000003C5DB1100000000000002DF2
+t1012773136
+s11762
+
+N/Users/louis/Projects/Dark Tower/Graphics/tomb.png
+c000000004B806C480000000000014E7E
+t1266707528
+s85630
+
+N/Users/louis/Projects/Dark Tower/Graphics/victory.jpg
+c000000003C5DB56E0000000000003D01
+t1012774254
+s15617
+
+N/Users/louis/Projects/Dark Tower/Graphics/warrior.jpg
+c000000003C5DB6DE0000000000003188
+t1012774622
+s12680
+
+N/Users/louis/Projects/Dark Tower/Graphics/warriors.jpg
+c000000003C7DAC3C0000000000004006
+t1014869052
+s16390
+
+N/Users/louis/Projects/Dark Tower/Graphics/wizard.jpg
+c000000003C5DB5AE0000000000003603
+t1012774318
+s13827
+
+N/Users/louis/Projects/Dark Tower/MainMenuViewController.xib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/louis/Projects/Dark Tower/MainWindow.xib
+c000000004B84905F0000000000008888
+t1266978911
+s34952
+
+N/Users/louis/Projects/Dark Tower/Manual/dark_tower.pdf
+c0000000039F9B20800000000017F879C
+t972665352
+s25135004
+
+N/Users/louis/Projects/Dark Tower/SetupViewController.xib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/louis/Projects/Dark Tower/Sound
+c000000004B7DFD370000000000000352
+t1266548023
+s850
+
+N/Users/louis/Projects/Dark Tower/Sound/battle.wav
+c000000003C4774920000000000005A92
+t1011315858
+s23186
+
+N/Users/louis/Projects/Dark Tower/Sound/bazaar-closed.wav
+c000000003C477508000000000000A7FE
+t1011315976
+s43006
+
+N/Users/louis/Projects/Dark Tower/Sound/bazaar.wav
+c000000003C4774FE00000000000101DE
+t1011315966
+s66014
+
+N/Users/louis/Projects/Dark Tower/Sound/beep.wav
+c000000003CA3F5760000000000000434
+t1017378166
+s1076
+
+N/Users/louis/Projects/Dark Tower/Sound/clear.wav
+c000000003C47746E00000000000082F6
+t1011315822
+s33526
+
+N/Users/louis/Projects/Dark Tower/Sound/darktower.wav
+c000000003C47752E000000000000EF3E
+t1011316014
+s61246
+
+N/Users/louis/Projects/Dark Tower/Sound/dragon-kill.wav
+c000000003C4774B40000000000014A70
+t1011315892
+s84592
+
+N/Users/louis/Projects/Dark Tower/Sound/dragon.wav
+c000000003C4774A20000000000005FD6
+t1011315874
+s24534
+
+N/Users/louis/Projects/Dark Tower/Sound/end-turn.wav
+c000000003C4774680000000000001FDE
+t1011315816
+s8158
+
+N/Users/louis/Projects/Dark Tower/Sound/enemy-hit.wav
+c000000003C4774940000000000003FDE
+t1011315860
+s16350
+
+N/Users/louis/Projects/Dark Tower/Sound/frontier.wav
+c000000003C4775120000000000005546
+t1011315986
+s21830
+
+N/Users/louis/Projects/Dark Tower/Sound/intro.wav
+c000000003C4775380000000000019E8F
+t1011316024
+s106127
+
+N/Users/louis/Projects/Dark Tower/Sound/lost.wav
+c000000003C4774AE000000000000A61F
+t1011315886
+s42527
+
+N/Users/louis/Projects/Dark Tower/Sound/pegasus.wav
+c000000003C47748400000000000040F6
+t1011315844
+s16630
+
+N/Users/louis/Projects/Dark Tower/Sound/plague.wav
+c000000003C4774C0000000000000F181
+t1011315904
+s61825
+
+N/Users/louis/Projects/Dark Tower/Sound/player-hit.wav
+c000000003C4774A00000000000006A5E
+t1011315872
+s27230
+
+N/Users/louis/Projects/Dark Tower/Sound/rotate.wav
+c000000003CA3F5D4000000000000657C
+t1017378260
+s25980
+
+N/Users/louis/Projects/Dark Tower/Sound/sanctuary.wav
+c000000003C477504000000000000AE12
+t1011315972
+s44562
+
+N/Users/louis/Projects/Dark Tower/Sound/starving.wav
+c000000003D94FE080000000000006E80
+t1033174536
+s28288
+
+N/Users/louis/Projects/Dark Tower/Sound/tomb-battle.wav
+c000000003C4774F6000000000001B63E
+t1011315958
+s112190
+
+N/Users/louis/Projects/Dark Tower/Sound/tomb-nothing.wav
+c000000003C477508000000000002B34E
+t1011315976
+s176974
+
+N/Users/louis/Projects/Dark Tower/Sound/tomb.wav
+c000000003D911A540000000000015AA6
+t1032919636
+s88742
+
+N/Users/louis/Projects/Dark Tower/Sound/wrong.wav
+c000000003CA3F588000000000000011E
+t1017378184
+s286
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/BattleViewController.o
+t1301105974
+s43588
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/BazaarViewController.o
+t1301105974
+s48588
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Dark Tower.LinkFileList
+c000000004B84996100000000000005B5
+t1266981217
+s1461
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/DarkTower.o
+t1301105974
+s70036
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Dark_TowerAppDelegate.o
+t1266893193
+s47756
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Dark_TowerViewController.o
+t1301105974
+s33740
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/MainMenuViewController.o
+t1301105974
+s37532
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Player.o
+t1267925047
+s20208
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Random.o
+t1266791090
+s7488
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/SetupViewController.o
+t1301105974
+s34720
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/SoundManager.o
+t1267903010
+s8540
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/TowerStatusController.o
+t1301105975
+s51904
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/main.o
+t1266711369
+s5944
+
+N/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/towerController.o
+t1266801520
+s19488
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app
+t1301105975
+s2550
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app.dSYM
+t1301105975
+s102
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Arisilon.png
+t1266711362
+s81276
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/BattleViewController.nib
+t1266978037
+s3776
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/BazaarViewController.nib
+t1266790180
+s10236
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Brynthia.png
+t1266711362
+s86336
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark Tower
+t1301105975
+s74312
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark_TowerViewController.nib
+t1266978037
+s3724
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Durnin.png
+t1266711362
+s82988
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Graphics
+t2
+s0
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Info.plist
+t1266711361
+s576
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/MainMenuViewController.nib
+t1266978039
+s5718
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/MainWindow.nib
+t1266981219
+s2102
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/PkgInfo
+t1266711361
+s8
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/SetupViewController.nib
+t1266978039
+s5155
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Sound
+t2
+s0
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/TowerStatusController.nib
+t1267907175
+s5376
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Zenon.png
+t1266711362
+s85469
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/battle.wav
+t1266711362
+s23186
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/bazaar-closed.wav
+t1266711362
+s43006
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/bazaar.jpg
+t1266711362
+s14863
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/bazaar.png
+t1266711362
+s99155
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/bazaar.wav
+t1266711362
+s66014
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/beast.jpg
+t1266711362
+s11505
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/beep.wav
+t1266711362
+s1076
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/black.jpg
+t1266711362
+s981
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/board.gif
+t1266711362
+s877
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/brasskey.jpg
+t1266711362
+s11938
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/brigands.jpg
+t1266711362
+s16678
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/clear.wav
+t1266711362
+s33526
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/cursed.jpg
+t1266711362
+s13327
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/dark_tower.pdf
+t1266711365
+s25135004
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/darktower.gif
+t1266711362
+s887
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/darktower.wav
+t1266711362
+s61246
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/dg_classm32.gif
+t1266711362
+s28956
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/dg_dragon32.gif
+t1266711362
+s20970
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/dg_iso32.gif
+t1266711362
+s99013
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/dragon-kill.wav
+t1266711362
+s84592
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/dragon.jpg
+t1266711362
+s14951
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/dragon.wav
+t1266711362
+s24534
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/dtbutton.gif
+t1266714828
+s4101
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/dtlogo1.jpg
+t1266714828
+s24566
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/end-turn.wav
+t1266711362
+s8158
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/enemy-hit.wav
+t1266711362
+s16350
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/food.jpg
+t1266711362
+s11357
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/frontier.wav
+t1266711362
+s21830
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/gold.jpg
+t1266711362
+s14948
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/goldkey.jpg
+t1266711362
+s14611
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/healer.jpg
+t1266711362
+s12207
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/icon.png
+t1266982081
+s6401
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/intro.wav
+t1266711362
+s106127
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/keymissing.jpg
+t1266711362
+s18864
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/logo.gif
+t1266711362
+s52098
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/lost.jpg
+t1266711362
+s16153
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/lost.wav
+t1266711362
+s42527
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/pegasus.jpg
+t1266711362
+s16933
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/pegasus.wav
+t1266711362
+s16630
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/plague.jpg
+t1266711362
+s12253
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/plague.wav
+t1266711362
+s61825
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/player-hit.wav
+t1266711362
+s27230
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/rotate.wav
+t1266711362
+s25980
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/ruin.png
+t1266711362
+s107579
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/sanctuary.png
+t1266711362
+s86096
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/sanctuary.wav
+t1266711362
+s44562
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/scout.jpg
+t1266711362
+s14706
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/silverkey.jpg
+t1266711362
+s12024
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/starving.wav
+t1266711362
+s28288
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/sword.jpg
+t1266711362
+s11762
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/tomb-battle.wav
+t1266711362
+s112190
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/tomb-nothing.wav
+t1266711363
+s176974
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/tomb.png
+t1266711362
+s85630
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/tomb.wav
+t1266711363
+s88742
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/victory.jpg
+t1266711362
+s15617
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/warrior.jpg
+t1266711362
+s12680
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/warriors.jpg
+t1266711362
+s16390
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/wizard.jpg
+t1266711362
+s13827
+
+N/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/wrong.wav
+t1266711363
+s286
+
+N/Users/louis/Projects/Dark Tower/main.m
+c000000004B8079650000000000000165
+t1266710885
+s357
+i<UIKit/UIKit.h>
+
+N/var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch.gch
+t1266711369
+s8753336
+
+NDark_Tower-Info.plist
+c000000004B807965000000000000038D
+t1266710885
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322798773#322798773#0(0"0(0#1#0"2529608336#0"0#
+
+CCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/BattleViewController.o" "/Users/louis/Projects/Dark Tower/Classes/BattleViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322798774.754191
+e322798774.914342
+r1
+xCompileC
+xbuild/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/BattleViewController.o
+x/Users/louis/Projects/Dark Tower/Classes/BattleViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/louis/Projects/Dark Tower/Classes/BattleViewController.m322798774#322798774#0(0"0(0#0#63"/Users/louis/Projects/Dark Tower/Classes/BattleViewController.m2529608336#1915"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -include /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch -c "/Users/louis/Projects/Dark Tower/Classes/BattleViewController.m" -o "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/BattleViewController.o"0#
+
+CCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/BazaarViewController.o" "/Users/louis/Projects/Dark Tower/Classes/BazaarViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322798774.526921
+e322798774.676867
+r1
+xCompileC
+xbuild/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/BazaarViewController.o
+x/Users/louis/Projects/Dark Tower/Classes/BazaarViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/louis/Projects/Dark Tower/Classes/BazaarViewController.m322798774#322798774#0(0"0(0#0#63"/Users/louis/Projects/Dark Tower/Classes/BazaarViewController.m2529608336#1915"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -include /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch -c "/Users/louis/Projects/Dark Tower/Classes/BazaarViewController.m" -o "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/BazaarViewController.o"0#
+
+CCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/DarkTower.o" "/Users/louis/Projects/Dark Tower/Classes/DarkTower.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322798774.147608
+e322798774.442593
+r1
+xCompileC
+xbuild/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/DarkTower.o
+x/Users/louis/Projects/Dark Tower/Classes/DarkTower.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/louis/Projects/Dark Tower/Classes/DarkTower.m322798774#322798774#0(0"0(0#0#52"/Users/louis/Projects/Dark Tower/Classes/DarkTower.m2529608336#1893"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -include /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch -c "/Users/louis/Projects/Dark Tower/Classes/DarkTower.m" -o "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/DarkTower.o"0#
+
+CCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Dark_TowerAppDelegate.o" "/Users/louis/Projects/Dark Tower/Classes/Dark_TowerAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s288585993.682765
+e288585993.871360
+r1
+xCompileC
+xbuild/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Dark_TowerAppDelegate.o
+x/Users/louis/Projects/Dark Tower/Classes/Dark_TowerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/louis/Projects/Dark Tower/Classes/Dark_TowerAppDelegate.m288585993#288585993#0(0"0(0#0#64"/Users/louis/Projects/Dark Tower/Classes/Dark_TowerAppDelegate.m2476521584#1917"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -include /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch -c "/Users/louis/Projects/Dark Tower/Classes/Dark_TowerAppDelegate.m" -o "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Dark_TowerAppDelegate.o"0#
+
+CCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Dark_TowerViewController.o" "/Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322798773.805593
+e322798774.147327
+r1
+xCompileC
+xbuild/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Dark_TowerViewController.o
+x/Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.m322798773#322798774#0(0"0(0#0#67"/Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.m2529608336#1923"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -include /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch -c "/Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.m" -o "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Dark_TowerViewController.o"0#
+
+CCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/MainMenuViewController.o" "/Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322798774.442744
+e322798774.526777
+r1
+xCompileC
+xbuild/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/MainMenuViewController.o
+x/Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.m322798774#322798774#0(0"0(0#0#65"/Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.m2529608336#1919"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -include /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch -c "/Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.m" -o "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/MainMenuViewController.o"0#
+
+CCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Player.o" "/Users/louis/Projects/Dark Tower/Classes/Player.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s289617847.220658
+e289617847.397065
+r1
+xCompileC
+xbuild/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Player.o
+x/Users/louis/Projects/Dark Tower/Classes/Player.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/louis/Projects/Dark Tower/Classes/Player.m289617847#289617847#0(0"0(0#0#49"/Users/louis/Projects/Dark Tower/Classes/Player.m2463168624#1887"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -include /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch -c "/Users/louis/Projects/Dark Tower/Classes/Player.m" -o "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Player.o"0#
+
+CCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Random.o" "/Users/louis/Projects/Dark Tower/Classes/Random.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s288483889.963252
+e288483890.082245
+r1
+xCompileC
+xbuild/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Random.o
+x/Users/louis/Projects/Dark Tower/Classes/Random.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/louis/Projects/Dark Tower/Classes/Random.m288483889#288483890#0(0"0(0#0#49"/Users/louis/Projects/Dark Tower/Classes/Random.m2476521584#1887"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -include /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch -c "/Users/louis/Projects/Dark Tower/Classes/Random.m" -o "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Random.o"0#
+
+CCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/SetupViewController.o" "/Users/louis/Projects/Dark Tower/Classes/SetupViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322798774.677021
+e322798774.754049
+r1
+xCompileC
+xbuild/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/SetupViewController.o
+x/Users/louis/Projects/Dark Tower/Classes/SetupViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/louis/Projects/Dark Tower/Classes/SetupViewController.m322798774#322798774#0(0"0(0#0#62"/Users/louis/Projects/Dark Tower/Classes/SetupViewController.m2529608336#1913"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -include /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch -c "/Users/louis/Projects/Dark Tower/Classes/SetupViewController.m" -o "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/SetupViewController.o"0#
+
+CCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/SoundManager.o" "/Users/louis/Projects/Dark Tower/Classes/SoundManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s289595810.609245
+e289595810.780127
+r1
+xCompileC
+xbuild/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/SoundManager.o
+x/Users/louis/Projects/Dark Tower/Classes/SoundManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/louis/Projects/Dark Tower/Classes/SoundManager.m289595810#289595810#0(0"0(0#0#55"/Users/louis/Projects/Dark Tower/Classes/SoundManager.m2463168624#1899"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -include /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch -c "/Users/louis/Projects/Dark Tower/Classes/SoundManager.m" -o "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/SoundManager.o"0#
+
+CCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/TowerStatusController.o" "/Users/louis/Projects/Dark Tower/Classes/TowerStatusController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322798774.914628
+e322798775.100890
+r1
+xCompileC
+xbuild/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/TowerStatusController.o
+x/Users/louis/Projects/Dark Tower/Classes/TowerStatusController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/louis/Projects/Dark Tower/Classes/TowerStatusController.m322798774#322798775#0(0"0(0#0#64"/Users/louis/Projects/Dark Tower/Classes/TowerStatusController.m2529608336#1917"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -include /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch -c "/Users/louis/Projects/Dark Tower/Classes/TowerStatusController.m" -o "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/TowerStatusController.o"0#
+
+CCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/main.o" "/Users/louis/Projects/Dark Tower/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s288404169.492446
+e288404169.783640
+r1
+xCompileC
+xbuild/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/main.o
+x/Users/louis/Projects/Dark Tower/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/louis/Projects/Dark Tower/main.m288404169#288404169#0(0"0(0#0#39"/Users/louis/Projects/Dark Tower/main.m2476521584#1875"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -include /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch -c "/Users/louis/Projects/Dark Tower/main.m" -o "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/towerController.o" "/Users/louis/Projects/Dark Tower/Classes/towerController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s288494319.990970
+e288494320.070764
+r1
+xCompileC
+xbuild/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/towerController.o
+x/Users/louis/Projects/Dark Tower/Classes/towerController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/louis/Projects/Dark Tower/Classes/towerController.m288494319#288494320#0(0"0(0#0#58"/Users/louis/Projects/Dark Tower/Classes/towerController.m2476521584#1905"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -include /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch -c "/Users/louis/Projects/Dark Tower/Classes/towerController.m" -o "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/towerController.o"0#
+
+CCompileXIB "/Users/louis/Projects/Dark Tower/BattleViewController.xib"
+s288623867.872080
+e288623869.210129
+r1
+xCompileXIB
+x/Users/louis/Projects/Dark Tower/BattleViewController.xib
+lSLF07#2@35"CompileXIB BattleViewController.xib288623867#288623869#0(0"0(0#0#57"/Users/louis/Projects/Dark Tower/BattleViewController.xib4375320#493"    cd "/Users/louis/Projects/Dark Tower"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/BattleViewController.nib" "/Users/louis/Projects/Dark Tower/BattleViewController.xib"0#
+
+CCompileXIB "/Users/louis/Projects/Dark Tower/Classes/BattleViewController.xib"
+s288670834.470331
+e288670838.010504
+r1
+xCompileXIB
+x/Users/louis/Projects/Dark Tower/Classes/BattleViewController.xib
+lSLF07#2@43"CompileXIB Classes/BattleViewController.xib288670834#288670838#0(0"0(0#0#65"/Users/louis/Projects/Dark Tower/Classes/BattleViewController.xib4375320#501"    cd "/Users/louis/Projects/Dark Tower"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/BattleViewController.nib" "/Users/louis/Projects/Dark Tower/Classes/BattleViewController.xib"0#
+
+CCompileXIB "/Users/louis/Projects/Dark Tower/Classes/BazaarViewController.xib"
+s288482979.030414
+e288482980.655928
+r1
+xCompileXIB
+x/Users/louis/Projects/Dark Tower/Classes/BazaarViewController.xib
+lSLF07#2@43"CompileXIB Classes/BazaarViewController.xib288482979#288482980#0(0"0(0#0#65"/Users/louis/Projects/Dark Tower/Classes/BazaarViewController.xib2476521584#501"    cd "/Users/louis/Projects/Dark Tower"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/BazaarViewController.nib" "/Users/louis/Projects/Dark Tower/Classes/BazaarViewController.xib"0#
+
+CCompileXIB "/Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.xib"
+s288670834.541780
+e288670838.004732
+r1
+xCompileXIB
+x/Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.xib
+lSLF07#2@47"CompileXIB Classes/Dark_TowerViewController.xib288670834#288670838#0(0"0(0#0#69"/Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.xib4858560#509"    cd "/Users/louis/Projects/Dark Tower"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark_TowerViewController.nib" "/Users/louis/Projects/Dark Tower/Classes/Dark_TowerViewController.xib"0#
+
+CCompileXIB "/Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.xib"
+s288670838.005213
+e288670839.561377
+r1
+xCompileXIB
+x/Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.xib
+lSLF07#2@45"CompileXIB Classes/MainMenuViewController.xib288670838#288670839#0(0"0(0#0#67"/Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.xib4375320#505"    cd "/Users/louis/Projects/Dark Tower"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/MainMenuViewController.nib" "/Users/louis/Projects/Dark Tower/Classes/MainMenuViewController.xib"0#
+
+CCompileXIB "/Users/louis/Projects/Dark Tower/Classes/SetupViewController.xib"
+s288670838.010633
+e288670839.477744
+r1
+xCompileXIB
+x/Users/louis/Projects/Dark Tower/Classes/SetupViewController.xib
+lSLF07#2@42"CompileXIB Classes/SetupViewController.xib288670838#288670839#0(0"0(0#0#64"/Users/louis/Projects/Dark Tower/Classes/SetupViewController.xib2476521584#499"    cd "/Users/louis/Projects/Dark Tower"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/SetupViewController.nib" "/Users/louis/Projects/Dark Tower/Classes/SetupViewController.xib"0#
+
+CCompileXIB "/Users/louis/Projects/Dark Tower/Classes/TowerStatusController.xib"
+s289599975.104797
+e289599975.867574
+r1
+xCompileXIB
+x/Users/louis/Projects/Dark Tower/Classes/TowerStatusController.xib
+lSLF07#2@44"CompileXIB Classes/TowerStatusController.xib289599975#289599975#0(0"0(0#0#66"/Users/louis/Projects/Dark Tower/Classes/TowerStatusController.xib2463168624#503"    cd "/Users/louis/Projects/Dark Tower"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/TowerStatusController.nib" "/Users/louis/Projects/Dark Tower/Classes/TowerStatusController.xib"0#
+
+CCompileXIB "/Users/louis/Projects/Dark Tower/Dark_TowerViewController.xib"
+s288473110.590990
+e288473112.242872
+r1
+xCompileXIB
+x/Users/louis/Projects/Dark Tower/Dark_TowerViewController.xib
+lSLF07#2@39"CompileXIB Dark_TowerViewController.xib288473110#288473112#0(0"0(0#0#61"/Users/louis/Projects/Dark Tower/Dark_TowerViewController.xib2476521584#501"    cd "/Users/louis/Projects/Dark Tower"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark_TowerViewController.nib" "/Users/louis/Projects/Dark Tower/Dark_TowerViewController.xib"0#
+
+CCompileXIB "/Users/louis/Projects/Dark Tower/MainMenuViewController.xib"
+s288478535.551378
+e288478536.234195
+r1
+xCompileXIB
+x/Users/louis/Projects/Dark Tower/MainMenuViewController.xib
+lSLF07#2@37"CompileXIB MainMenuViewController.xib288478535#288478536#0(0"0(0#0#59"/Users/louis/Projects/Dark Tower/MainMenuViewController.xib2476521584#497"    cd "/Users/louis/Projects/Dark Tower"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/MainMenuViewController.nib" "/Users/louis/Projects/Dark Tower/MainMenuViewController.xib"0#
+
+CCompileXIB "/Users/louis/Projects/Dark Tower/MainWindow.xib"
+s288674017.293071
+e288674019.882507
+r1
+xCompileXIB
+x/Users/louis/Projects/Dark Tower/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib288674017#288674019#0(0"0(0#0#47"/Users/louis/Projects/Dark Tower/MainWindow.xib2476521584#473"    cd "/Users/louis/Projects/Dark Tower"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/MainWindow.nib" "/Users/louis/Projects/Dark Tower/MainWindow.xib"0#
+
+CCompileXIB "/Users/louis/Projects/Dark Tower/SetupViewController.xib"
+s288476107.967334
+e288476108.616511
+r1
+xCompileXIB
+x/Users/louis/Projects/Dark Tower/SetupViewController.xib
+lSLF07#2@34"CompileXIB SetupViewController.xib288476107#288476108#0(0"0(0#0#56"/Users/louis/Projects/Dark Tower/SetupViewController.xib2476521584#491"    cd "/Users/louis/Projects/Dark Tower"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/SetupViewController.nib" "/Users/louis/Projects/Dark Tower/SetupViewController.xib"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/Arisilon.png" Graphics/Arisilon.png
+s288404162.246193
+e288404162.550137
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/Arisilon.png
+xGraphics/Arisilon.png
+lSLF07#2@26"Copy Graphics/Arisilon.png288404162#288404162#0(0"0(0#0#54"/Users/louis/Projects/Dark Tower/Graphics/Arisilon.png2476521584#456"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/Arisilon.png" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/Brynthia.png" Graphics/Brynthia.png
+s288404162.255540
+e288404162.550323
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/Brynthia.png
+xGraphics/Brynthia.png
+lSLF07#2@26"Copy Graphics/Brynthia.png288404162#288404162#0(0"0(0#0#54"/Users/louis/Projects/Dark Tower/Graphics/Brynthia.png2476521584#456"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/Brynthia.png" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/Durnin.png" Graphics/Durnin.png
+s288404162.543407
+e288404162.683546
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/Durnin.png
+xGraphics/Durnin.png
+lSLF07#2@24"Copy Graphics/Durnin.png288404162#288404162#0(0"0(0#0#52"/Users/louis/Projects/Dark Tower/Graphics/Durnin.png2476521584#454"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/Durnin.png" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/Graphics" Graphics
+r0
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/Sound" Sound
+r0
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/Zenon.png" Graphics/Zenon.png
+s288404162.683680
+e288404162.730521
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/Zenon.png
+xGraphics/Zenon.png
+lSLF07#2@23"Copy Graphics/Zenon.png288404162#288404162#0(0"0(0#0#51"/Users/louis/Projects/Dark Tower/Graphics/Zenon.png2476521584#453"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/Zenon.png" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/battle.wav" Sound/battle.wav
+s288404162.695803
+e288404162.776146
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/battle.wav
+xSound/battle.wav
+lSLF07#2@21"Copy Sound/battle.wav288404162#288404162#0(0"0(0#0#49"/Users/louis/Projects/Dark Tower/Sound/battle.wav2476521584#451"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/battle.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/bazaar-closed.wav" Sound/bazaar-closed.wav
+s288404162.698543
+e288404162.856348
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/bazaar-closed.wav
+xSound/bazaar-closed.wav
+lSLF07#2@28"Copy Sound/bazaar-closed.wav288404162#288404162#0(0"0(0#0#56"/Users/louis/Projects/Dark Tower/Sound/bazaar-closed.wav2476521584#458"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/bazaar-closed.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/bazaar.jpg" Graphics/bazaar.jpg
+s288404162.247518
+e288404162.538266
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/bazaar.jpg
+xGraphics/bazaar.jpg
+lSLF07#2@24"Copy Graphics/bazaar.jpg288404162#288404162#0(0"0(0#0#52"/Users/louis/Projects/Dark Tower/Graphics/bazaar.jpg2476521584#454"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/bazaar.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/bazaar.png" Graphics/bazaar.png
+s288404162.248583
+e288404162.611644
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/bazaar.png
+xGraphics/bazaar.png
+lSLF07#2@24"Copy Graphics/bazaar.png288404162#288404162#0(0"0(0#0#52"/Users/louis/Projects/Dark Tower/Graphics/bazaar.png2476521584#454"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/bazaar.png" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/bazaar.wav" Sound/bazaar.wav
+s288404162.700800
+e288404162.985324
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/bazaar.wav
+xSound/bazaar.wav
+lSLF07#2@21"Copy Sound/bazaar.wav288404162#288404162#0(0"0(0#0#49"/Users/louis/Projects/Dark Tower/Sound/bazaar.wav2476521584#451"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/bazaar.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/beast.jpg" Graphics/beast.jpg
+s288404162.249627
+e288404162.538441
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/beast.jpg
+xGraphics/beast.jpg
+lSLF07#2@23"Copy Graphics/beast.jpg288404162#288404162#0(0"0(0#0#51"/Users/louis/Projects/Dark Tower/Graphics/beast.jpg2476521584#453"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/beast.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/beep.wav" Sound/beep.wav
+s288404162.703414
+e288404162.775924
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/beep.wav
+xSound/beep.wav
+lSLF07#2@19"Copy Sound/beep.wav288404162#288404162#0(0"0(0#0#47"/Users/louis/Projects/Dark Tower/Sound/beep.wav2476521584#449"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/beep.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/black.jpg" Graphics/black.jpg
+s288404162.251175
+e288404162.467785
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/black.jpg
+xGraphics/black.jpg
+lSLF07#2@23"Copy Graphics/black.jpg288404162#288404162#0(0"0(0#0#51"/Users/louis/Projects/Dark Tower/Graphics/black.jpg2476521584#453"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/black.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/board.gif" Graphics/board.gif
+s288404162.252481
+e288404162.538785
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/board.gif
+xGraphics/board.gif
+lSLF07#2@23"Copy Graphics/board.gif288404162#288404162#0(0"0(0#0#51"/Users/louis/Projects/Dark Tower/Graphics/board.gif2476521584#453"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/board.gif" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/brasskey.jpg" Graphics/brasskey.jpg
+s288404162.253526
+e288404162.533299
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/brasskey.jpg
+xGraphics/brasskey.jpg
+lSLF07#2@26"Copy Graphics/brasskey.jpg288404162#288404162#0(0"0(0#0#54"/Users/louis/Projects/Dark Tower/Graphics/brasskey.jpg2476521584#456"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/brasskey.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/brigands.jpg" Graphics/brigands.jpg
+s288404162.254546
+e288404162.535860
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/brigands.jpg
+xGraphics/brigands.jpg
+lSLF07#2@26"Copy Graphics/brigands.jpg288404162#288404162#0(0"0(0#0#54"/Users/louis/Projects/Dark Tower/Graphics/brigands.jpg2476521584#456"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/brigands.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/clear.wav" Sound/clear.wav
+s288404162.707960
+e288404162.852593
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/clear.wav
+xSound/clear.wav
+lSLF07#2@20"Copy Sound/clear.wav288404162#288404162#0(0"0(0#0#48"/Users/louis/Projects/Dark Tower/Sound/clear.wav2476521584#450"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/clear.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/cursed.jpg" Graphics/cursed.jpg
+s288404162.468127
+e288404162.538614
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/cursed.jpg
+xGraphics/cursed.jpg
+lSLF07#2@24"Copy Graphics/cursed.jpg288404162#288404162#0(0"0(0#0#52"/Users/louis/Projects/Dark Tower/Graphics/cursed.jpg4375320#454"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/cursed.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/dark_tower.pdf" Manual/dark_tower.pdf
+s288404162.690131
+e288404165.848401
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/dark_tower.pdf
+xManual/dark_tower.pdf
+lSLF07#2@26"Copy Manual/dark_tower.pdf288404162#288404165#0(0"0(0#0#54"/Users/louis/Projects/Dark Tower/Manual/dark_tower.pdf2476521584#456"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Manual/dark_tower.pdf" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/darktower.gif" Graphics/darktower.gif
+s288404162.499952
+e288404162.538062
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/darktower.gif
+xGraphics/darktower.gif
+lSLF07#2@27"Copy Graphics/darktower.gif288404162#288404162#0(0"0(0#0#55"/Users/louis/Projects/Dark Tower/Graphics/darktower.gif2476521584#457"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/darktower.gif" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/darktower.wav" Sound/darktower.wav
+s288404162.710652
+e288404162.854288
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/darktower.wav
+xSound/darktower.wav
+lSLF07#2@24"Copy Sound/darktower.wav288404162#288404162#0(0"0(0#0#52"/Users/louis/Projects/Dark Tower/Sound/darktower.wav2476521584#454"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/darktower.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/dg_classm32.gif" Graphics/dg_classm32.gif
+s288404162.533433
+e288404162.554923
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/dg_classm32.gif
+xGraphics/dg_classm32.gif
+lSLF07#2@29"Copy Graphics/dg_classm32.gif288404162#288404162#0(0"0(0#0#57"/Users/louis/Projects/Dark Tower/Graphics/dg_classm32.gif2476521584#459"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/dg_classm32.gif" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/dg_dragon32.gif" Graphics/dg_dragon32.gif
+s288404162.535986
+e288404162.611867
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/dg_dragon32.gif
+xGraphics/dg_dragon32.gif
+lSLF07#2@29"Copy Graphics/dg_dragon32.gif288404162#288404162#0(0"0(0#0#57"/Users/louis/Projects/Dark Tower/Graphics/dg_dragon32.gif2476521584#459"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/dg_dragon32.gif" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/dg_iso32.gif" Graphics/dg_iso32.gif
+s288404162.538902
+e288404162.707834
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/dg_iso32.gif
+xGraphics/dg_iso32.gif
+lSLF07#2@26"Copy Graphics/dg_iso32.gif288404162#288404162#0(0"0(0#0#54"/Users/louis/Projects/Dark Tower/Graphics/dg_iso32.gif2476521584#456"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/dg_iso32.gif" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/dragon-kill.wav" Sound/dragon-kill.wav
+s288404162.725607
+e288404163.034986
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/dragon-kill.wav
+xSound/dragon-kill.wav
+lSLF07#2@26"Copy Sound/dragon-kill.wav288404162#288404163#0(0"0(0#0#54"/Users/louis/Projects/Dark Tower/Sound/dragon-kill.wav2476521584#456"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/dragon-kill.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/dragon.jpg" Graphics/dragon.jpg
+s288404162.540992
+e288404162.609838
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/dragon.jpg
+xGraphics/dragon.jpg
+lSLF07#2@24"Copy Graphics/dragon.jpg288404162#288404162#0(0"0(0#0#52"/Users/louis/Projects/Dark Tower/Graphics/dragon.jpg2476521584#454"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/dragon.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/dragon.wav" Sound/dragon.wav
+s288404162.730648
+e288404162.929072
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/dragon.wav
+xSound/dragon.wav
+lSLF07#2@21"Copy Sound/dragon.wav288404162#288404162#0(0"0(0#0#49"/Users/louis/Projects/Dark Tower/Sound/dragon.wav2476521584#451"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/dragon.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/dtbutton.gif" Graphics/dtbutton.gif
+s288407628.070655
+e288407628.186303
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/dtbutton.gif
+xGraphics/dtbutton.gif
+lSLF07#2@26"Copy Graphics/dtbutton.gif288407628#288407628#0(0"0(0#0#54"/Users/louis/Projects/Dark Tower/Graphics/dtbutton.gif2476521584#456"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/dtbutton.gif" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/dtlogo1.jpg" Graphics/dtlogo1.jpg
+s288407628.071808
+e288407628.186522
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/dtlogo1.jpg
+xGraphics/dtlogo1.jpg
+lSLF07#2@25"Copy Graphics/dtlogo1.jpg288407628#288407628#0(0"0(0#0#53"/Users/louis/Projects/Dark Tower/Graphics/dtlogo1.jpg2476521584#455"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/dtlogo1.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/end-turn.wav" Sound/end-turn.wav
+s288404162.776258
+e288404162.917879
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/end-turn.wav
+xSound/end-turn.wav
+lSLF07#2@23"Copy Sound/end-turn.wav288404162#288404162#0(0"0(0#0#51"/Users/louis/Projects/Dark Tower/Sound/end-turn.wav2476521584#453"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/end-turn.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/enemy-hit.wav" Sound/enemy-hit.wav
+s288404162.777341
+e288404162.929486
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/enemy-hit.wav
+xSound/enemy-hit.wav
+lSLF07#2@24"Copy Sound/enemy-hit.wav288404162#288404162#0(0"0(0#0#52"/Users/louis/Projects/Dark Tower/Sound/enemy-hit.wav2476521584#454"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/enemy-hit.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/food.jpg" Graphics/food.jpg
+s288404162.545607
+e288404162.617159
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/food.jpg
+xGraphics/food.jpg
+lSLF07#2@22"Copy Graphics/food.jpg288404162#288404162#0(0"0(0#0#50"/Users/louis/Projects/Dark Tower/Graphics/food.jpg2476521584#452"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/food.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/frontier.wav" Sound/frontier.wav
+s288404162.787131
+e288404162.937168
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/frontier.wav
+xSound/frontier.wav
+lSLF07#2@23"Copy Sound/frontier.wav288404162#288404162#0(0"0(0#0#51"/Users/louis/Projects/Dark Tower/Sound/frontier.wav2476521584#453"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/frontier.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/gold.jpg" Graphics/gold.jpg
+s288404162.547771
+e288404162.626424
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/gold.jpg
+xGraphics/gold.jpg
+lSLF07#2@22"Copy Graphics/gold.jpg288404162#288404162#0(0"0(0#0#50"/Users/louis/Projects/Dark Tower/Graphics/gold.jpg2476521584#452"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/gold.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/goldkey.jpg" Graphics/goldkey.jpg
+s288404162.550429
+e288404162.626237
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/goldkey.jpg
+xGraphics/goldkey.jpg
+lSLF07#2@25"Copy Graphics/goldkey.jpg288404162#288404162#0(0"0(0#0#53"/Users/louis/Projects/Dark Tower/Graphics/goldkey.jpg2476521584#455"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/goldkey.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/healer.jpg" Graphics/healer.jpg
+s288404162.552558
+e288404162.617640
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/healer.jpg
+xGraphics/healer.jpg
+lSLF07#2@24"Copy Graphics/healer.jpg288404162#288404162#0(0"0(0#0#52"/Users/louis/Projects/Dark Tower/Graphics/healer.jpg2476521584#454"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/healer.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/icon.png" Graphics/icon.png
+s288674881.795747
+e288674881.810949
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/icon.png
+xGraphics/icon.png
+lSLF07#2@22"Copy Graphics/icon.png288674881#288674881#0(0"0(0#0#50"/Users/louis/Projects/Dark Tower/Graphics/icon.png2476521584#452"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/icon.png" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/intro.wav" Sound/intro.wav
+s288404162.852757
+e288404163.079117
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/intro.wav
+xSound/intro.wav
+lSLF07#2@20"Copy Sound/intro.wav288404162#288404163#0(0"0(0#0#48"/Users/louis/Projects/Dark Tower/Sound/intro.wav2476521584#450"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/intro.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/keymissing.jpg" Graphics/keymissing.jpg
+s288404162.555059
+e288404162.617384
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/keymissing.jpg
+xGraphics/keymissing.jpg
+lSLF07#2@28"Copy Graphics/keymissing.jpg288404162#288404162#0(0"0(0#0#56"/Users/louis/Projects/Dark Tower/Graphics/keymissing.jpg2476521584#458"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/keymissing.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/logo.gif" Graphics/logo.gif
+s288404162.610139
+e288404162.680984
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/logo.gif
+xGraphics/logo.gif
+lSLF07#2@22"Copy Graphics/logo.gif288404162#288404162#0(0"0(0#0#50"/Users/louis/Projects/Dark Tower/Graphics/logo.gif4375320#452"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/logo.gif" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/lost.jpg" Graphics/lost.jpg
+s288404162.611988
+e288404162.669749
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/lost.jpg
+xGraphics/lost.jpg
+lSLF07#2@22"Copy Graphics/lost.jpg288404162#288404162#0(0"0(0#0#50"/Users/louis/Projects/Dark Tower/Graphics/lost.jpg2476521584#452"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/lost.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/lost.wav" Sound/lost.wav
+s288404162.854416
+e288404163.031708
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/lost.wav
+xSound/lost.wav
+lSLF07#2@19"Copy Sound/lost.wav288404162#288404163#0(0"0(0#0#47"/Users/louis/Projects/Dark Tower/Sound/lost.wav2476521584#449"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/lost.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/pegasus.jpg" Graphics/pegasus.jpg
+s288404162.614418
+e288404162.672115
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/pegasus.jpg
+xGraphics/pegasus.jpg
+lSLF07#2@25"Copy Graphics/pegasus.jpg288404162#288404162#0(0"0(0#0#53"/Users/louis/Projects/Dark Tower/Graphics/pegasus.jpg2476521584#455"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/pegasus.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/pegasus.wav" Sound/pegasus.wav
+s288404162.856485
+e288404162.969717
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/pegasus.wav
+xSound/pegasus.wav
+lSLF07#2@22"Copy Sound/pegasus.wav288404162#288404162#0(0"0(0#0#50"/Users/louis/Projects/Dark Tower/Sound/pegasus.wav2476521584#452"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/pegasus.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/plague.jpg" Graphics/plague.jpg
+s288404162.617930
+e288404162.671740
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/plague.jpg
+xGraphics/plague.jpg
+lSLF07#2@24"Copy Graphics/plague.jpg288404162#288404162#0(0"0(0#0#52"/Users/louis/Projects/Dark Tower/Graphics/plague.jpg2476521584#454"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/plague.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/plague.wav" Sound/plague.wav
+s288404162.918021
+e288404163.030326
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/plague.wav
+xSound/plague.wav
+lSLF07#2@21"Copy Sound/plague.wav288404162#288404163#0(0"0(0#0#49"/Users/louis/Projects/Dark Tower/Sound/plague.wav2476521584#451"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/plague.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/player-hit.wav" Sound/player-hit.wav
+s288404162.929611
+e288404162.968392
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/player-hit.wav
+xSound/player-hit.wav
+lSLF07#2@25"Copy Sound/player-hit.wav288404162#288404162#0(0"0(0#0#53"/Users/louis/Projects/Dark Tower/Sound/player-hit.wav2476521584#455"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/player-hit.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/rotate.wav" Sound/rotate.wav
+s288404162.931806
+e288404162.966827
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/rotate.wav
+xSound/rotate.wav
+lSLF07#2@21"Copy Sound/rotate.wav288404162#288404162#0(0"0(0#0#49"/Users/louis/Projects/Dark Tower/Sound/rotate.wav2476521584#451"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/rotate.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/ruin.png" Graphics/ruin.png
+s288404162.620312
+e288404162.703288
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/ruin.png
+xGraphics/ruin.png
+lSLF07#2@22"Copy Graphics/ruin.png288404162#288404162#0(0"0(0#0#50"/Users/louis/Projects/Dark Tower/Graphics/ruin.png2476521584#452"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/ruin.png" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/sanctuary.png" Graphics/sanctuary.png
+s288404162.622606
+e288404162.695639
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/sanctuary.png
+xGraphics/sanctuary.png
+lSLF07#2@27"Copy Graphics/sanctuary.png288404162#288404162#0(0"0(0#0#55"/Users/louis/Projects/Dark Tower/Graphics/sanctuary.png2476521584#457"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/sanctuary.png" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/sanctuary.wav" Sound/sanctuary.wav
+s288404162.937297
+e288404163.033631
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/sanctuary.wav
+xSound/sanctuary.wav
+lSLF07#2@24"Copy Sound/sanctuary.wav288404162#288404163#0(0"0(0#0#52"/Users/louis/Projects/Dark Tower/Sound/sanctuary.wav2476521584#454"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/sanctuary.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/scout.jpg" Graphics/scout.jpg
+s288404162.626533
+e288404162.678286
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/scout.jpg
+xGraphics/scout.jpg
+lSLF07#2@23"Copy Graphics/scout.jpg288404162#288404162#0(0"0(0#0#51"/Users/louis/Projects/Dark Tower/Graphics/scout.jpg2476521584#453"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/scout.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/silverkey.jpg" Graphics/silverkey.jpg
+s288404162.650616
+e288404162.671935
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/silverkey.jpg
+xGraphics/silverkey.jpg
+lSLF07#2@27"Copy Graphics/silverkey.jpg288404162#288404162#0(0"0(0#0#55"/Users/louis/Projects/Dark Tower/Graphics/silverkey.jpg2476521584#457"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/silverkey.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/starving.wav" Sound/starving.wav
+s288404162.967029
+e288404162.991009
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/starving.wav
+xSound/starving.wav
+lSLF07#2@23"Copy Sound/starving.wav288404162#288404162#0(0"0(0#0#51"/Users/louis/Projects/Dark Tower/Sound/starving.wav2476521584#453"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/starving.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/sword.jpg" Graphics/sword.jpg
+s288404162.669880
+e288404162.690000
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/sword.jpg
+xGraphics/sword.jpg
+lSLF07#2@23"Copy Graphics/sword.jpg288404162#288404162#0(0"0(0#0#51"/Users/louis/Projects/Dark Tower/Graphics/sword.jpg2476521584#453"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/sword.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/tomb-battle.wav" Sound/tomb-battle.wav
+s288404162.968510
+e288404163.081426
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/tomb-battle.wav
+xSound/tomb-battle.wav
+lSLF07#2@26"Copy Sound/tomb-battle.wav288404162#288404163#0(0"0(0#0#54"/Users/louis/Projects/Dark Tower/Sound/tomb-battle.wav2476521584#456"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/tomb-battle.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/tomb-nothing.wav" Sound/tomb-nothing.wav
+s288404162.969827
+e288404163.130942
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/tomb-nothing.wav
+xSound/tomb-nothing.wav
+lSLF07#2@27"Copy Sound/tomb-nothing.wav288404162#288404163#0(0"0(0#0#55"/Users/louis/Projects/Dark Tower/Sound/tomb-nothing.wav2476521584#457"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/tomb-nothing.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/tomb.png" Graphics/tomb.png
+s288404162.672223
+e288404162.698249
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/tomb.png
+xGraphics/tomb.png
+lSLF07#2@22"Copy Graphics/tomb.png288404162#288404162#0(0"0(0#0#50"/Users/louis/Projects/Dark Tower/Graphics/tomb.png2476521584#452"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/tomb.png" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/tomb.wav" Sound/tomb.wav
+s288404162.985455
+e288404163.082078
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/tomb.wav
+xSound/tomb.wav
+lSLF07#2@19"Copy Sound/tomb.wav288404162#288404163#0(0"0(0#0#47"/Users/louis/Projects/Dark Tower/Sound/tomb.wav2476521584#449"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/tomb.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/victory.jpg" Graphics/victory.jpg
+s288404162.673679
+e288404162.698434
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/victory.jpg
+xGraphics/victory.jpg
+lSLF07#2@25"Copy Graphics/victory.jpg288404162#288404162#0(0"0(0#0#53"/Users/louis/Projects/Dark Tower/Graphics/victory.jpg2476521584#455"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/victory.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/warrior.jpg" Graphics/warrior.jpg
+s288404162.675905
+e288404162.710531
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/warrior.jpg
+xGraphics/warrior.jpg
+lSLF07#2@25"Copy Graphics/warrior.jpg288404162#288404162#0(0"0(0#0#53"/Users/louis/Projects/Dark Tower/Graphics/warrior.jpg2476521584#455"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/warrior.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/warriors.jpg" Graphics/warriors.jpg
+s288404162.678412
+e288404162.725480
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/warriors.jpg
+xGraphics/warriors.jpg
+lSLF07#2@26"Copy Graphics/warriors.jpg288404162#288404162#0(0"0(0#0#54"/Users/louis/Projects/Dark Tower/Graphics/warriors.jpg2476521584#456"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/warriors.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/wizard.jpg" Graphics/wizard.jpg
+s288404162.681109
+e288404162.787002
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/wizard.jpg
+xGraphics/wizard.jpg
+lSLF07#2@24"Copy Graphics/wizard.jpg288404162#288404162#0(0"0(0#0#52"/Users/louis/Projects/Dark Tower/Graphics/wizard.jpg2476521584#454"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Graphics/wizard.jpg" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Dark Tower.app/wrong.wav" Sound/wrong.wav
+s288404162.991158
+e288404163.036636
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Dark Tower.app/wrong.wav
+xSound/wrong.wav
+lSLF07#2@20"Copy Sound/wrong.wav288404162#288404163#0(0"0(0#0#48"/Users/louis/Projects/Dark Tower/Sound/wrong.wav2476521584#450"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/louis/Projects/Dark Tower/Sound/wrong.wav" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+
+CGenerateDSYMFile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app.dSYM" "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark Tower"
+s322798775.241746
+e322798775.613645
+r1
+xGenerateDSYMFile
+x/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app.dSYM
+x/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark Tower
+lSLF07#2@122"GenerateDSYMFile "build/Debug-iphonesimulator/Dark Tower.app.dSYM" "build/Debug-iphonesimulator/Dark Tower.app/Dark Tower"322798775#322798775#0(0"0(0#0#86"/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark Tower2529608336#380"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark Tower" -o "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app.dSYM"0#
+
+CLd "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark Tower" normal i386
+s322798775.101093
+e322798775.241579
+r1
+xLd
+x/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark Tower
+xnormal
+xi386
+lSLF07#2@91"Link /Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark Tower322798775#322798775#0(0"0(0#0#0"2529608336#906"    cd "/Users/louis/Projects/Dark Tower"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk "-L/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" -filelist "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Objects-normal/i386/Dark Tower.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework MediaPlayer -o "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Dark Tower"0#
+
+CProcessInfoPlistFile "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Info.plist" Dark_Tower-Info.plist
+s288404161.069864
+e288404161.235429
+r1
+xProcessInfoPlistFile
+x/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Info.plist
+xDark_Tower-Info.plist
+lSLF07#2@29"Process Dark_Tower-Info.plist288404161#288404161#0(0"0(0#0#54"/Users/louis/Projects/Dark Tower/Dark_Tower-Info.plist4375320#476"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Dark_Tower-Info.plist -genpkginfo "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app/Info.plist"0#
+
+CProcessPCH /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch.gch Dark_Tower_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s288404165.848763
+e288404169.492106
+r1
+xProcessPCH
+x/var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch.gch
+xDark_Tower_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Dark_Tower_Prefix.pch288404165#288404169#0(0"0(0#0#54"/Users/louis/Projects/Dark Tower/Dark_Tower_Prefix.pch2476521584#1768"    cd "/Users/louis/Projects/Dark Tower"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-generated-files.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-own-target-headers.hmap" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-all-target-headers.hmap" -iquote "/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/Dark Tower-project-headers.hmap" "-F/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator" "-I/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/include" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources/i386" "-I/Users/louis/Projects/Dark Tower/build/Dark Tower.build/Debug-iphonesimulator/Dark Tower.build/DerivedSources" -c "/Users/louis/Projects/Dark Tower/Dark_Tower_Prefix.pch" -o /var/folders/zj/zjo1AevdEIOWVheSdpCT1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Dark_Tower_Prefix-fhiuqyxfmrgxtkcqjqdynmrvclcg/Dark_Tower_Prefix.pch.gch0#
+
+CTouch "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"
+s322798775.613899
+e322798775.825604
+r1
+xTouch
+x/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app
+lSLF07#2@81"Touch /Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app322798775#322798775#0(0"0(0#0#0"2529608336#273"    cd "/Users/louis/Projects/Dark Tower"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/louis/Projects/Dark Tower/build/Debug-iphonesimulator/Dark Tower.app"0#
+

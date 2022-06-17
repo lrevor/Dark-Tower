@@ -1,0 +1,5 @@
+/Users/louis/Projects/Dark Tower/Classes/SetupViewController.m: In function '-[SetupViewController startGame:]':
+/Users/louis/Projects/Dark Tower/Classes/SetupViewController.m:66: warning: 'DarkTower' may not respond to '-startGame:withDifficulty:'
+/Users/louis/Projects/Dark Tower/Classes/SetupViewController.m:66: warning: (Messages without a matching method signature
+/Users/louis/Projects/Dark Tower/Classes/SetupViewController.m:66: warning: will be assumed to return 'id' and accept
+/Users/louis/Projects/Dark Tower/Classes/SetupViewController.m:66: warning: '...' as arguments.)
